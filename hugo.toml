@@ -1,0 +1,66 @@
+baseURL = 'https://sumukh-acharya.vercel.app'
+languageCode = 'en-us'
+title = 'Sumukh Acharya'
+theme = 'hello-friend-ng'
+
+[params]
+  defaultTheme = "dark"
+  enableThemeToggle = true
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Your Profile Info
+  subtitle = ""
+  
+  # Set the homepage to look like a profile
+  homeSubtitle = "AI Intern @ Tvam Technologies"
+
+  # Footer
+  footerCopyright = 'Sumukh Acharya | sumukh.acharya@gmail.com'
+
+  [params.footer]
+    copyright = '© Sumukh Acharya | sumukh.acharya@gmail.com'
+
+  # --- LOGO SETTINGS (Top Left) ---
+  [params.logo]
+    logoText     = "Sumukh Acharya"
+    logoHomeLink = "/"
+    # cursor = false  # Uncomment this to remove the blinking cursor
+
+  # --- SOCIAL ICONS ---
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/sumukhacharya03"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/sumukh-acharya-6859ab312/"
+  
+
+# The Menu Navigation
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About Me"
+    url        = "/about"
+    weight     = 1
+
+  [[menu.main]]
+    identifier = "experience"
+    name       = "Experience"
+    url        = "/experience"
+    weight     = 2
+
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
+    weight     = 3
+
+# Enable HTML for custom image styling (if needed later)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

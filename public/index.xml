@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sumukh Acharya</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sumukh Acharya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I’m a final-year Computer Science student at PES University and currently an AI Intern at Tvam Technologies. My work focuses on fine-tuning language models, and I’m deeply fascinated by how AI can be applied to solve meaningful real-world problems.&lt;/p&gt;&#xA;&lt;p&gt;As I grow in this field, I aim to advance from fine-tuning existing models to building my own. I’m always looking for opportunities to strengthen my skills, take on new challenges, and contribute to impactful projects. I also have a growing interest in Big Data and Database Systems, helping me build a strong and versatile technical foundation. Outside of technology, I enjoy capturing moments through photography and love the strategic challenge of chess.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Intern @ Tvam Technologies</title>
+      <link>http://localhost:1313/experience/tvam/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/tvam/</guid>
+      <description>&lt;h3 id=&#34;role-overview&#34;&gt;&lt;strong&gt;Role Overview&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Intern&lt;/strong&gt; | &lt;em&gt;Sept 2025 – Present&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am currently an AI Intern at Tvam Technologies, responsible for fine-tuning language models and adapting them to the company’s unique needs and applications. As I progress in my role, I will also be working on creating and training new models.&lt;/p&gt;&#xA;&lt;h3 id=&#34;current-responsibilities&#34;&gt;&lt;strong&gt;Current Responsibilities&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fine-tuning language models using PEFT, LoRA, and hyperparameter tuning.&lt;/li&gt;&#xA;&lt;li&gt;Preparing and preprocessing datasets: curation, cleaning, formatting, and prompt creation.&lt;/li&gt;&#xA;&lt;li&gt;Designing custom data workflows to improve downstream model performance.&lt;/li&gt;&#xA;&lt;li&gt;Conducting research through papers, articles, and benchmarks to guide experiments.&lt;/li&gt;&#xA;&lt;li&gt;Strengthening fundamentals by learning Python from scratch through books and practice.&lt;/li&gt;&#xA;&lt;li&gt;Preparing clear reports and documentation for experiments and results.&lt;/li&gt;&#xA;&lt;li&gt;Planning to expand into model creation and architecture design as the internship progresses.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Senior Vision AI</title>
+      <link>http://localhost:1313/projects/senior-vision/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/senior-vision/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Senior-Vision-AI&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Teaching Assistant @ PES University</title>
+      <link>http://localhost:1313/experience/pes/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/pes/</guid>
+      <description>&lt;h3 id=&#34;role-overview&#34;&gt;&lt;strong&gt;Role Overview&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Python and Databases Teaching Assistant&lt;/strong&gt; | &lt;em&gt;Aug 2025 – Dec 2025&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;As a Teaching Assistant, I help bridge the gap between faculty instruction and student understanding, focusing on core computer science concepts.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-responsibilities&#34;&gt;&lt;strong&gt;Key Responsibilities&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mentorship:&lt;/strong&gt; I mentor a cohort of &lt;strong&gt;150+ undergraduate students&lt;/strong&gt;, helping them grasp complex concepts in &lt;strong&gt;Python programming&lt;/strong&gt; and &lt;strong&gt;Database Management Systems (DBMS)&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Academic Support:&lt;/strong&gt; My role involves assisting faculty in grading assignments, preparing course materials, and conducting interactive lab sessions where I help students debug code and understand database schemas in real-time.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Grid Pulse</title>
+      <link>http://localhost:1313/projects/grid-pulse/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/grid-pulse/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Grid-Pulse&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>URL Shortener</title>
+      <link>http://localhost:1313/projects/url-shortener/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/url-shortener/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/URL-Shortener&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DFOS</title>
+      <link>http://localhost:1313/projects/dfos/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/dfos/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/DFOS&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dynamic Fare Engine</title>
+      <link>http://localhost:1313/projects/dynamic-fare/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/dynamic-fare/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Dynamic-Fare-Engine&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Streamly</title>
+      <link>http://localhost:1313/projects/streamly/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/streamly/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Streamly&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Science Intern @ CODMAV (PES University)</title>
+      <link>http://localhost:1313/experience/codmav/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/codmav/</guid>
+      <description>&lt;h3 id=&#34;role-overview&#34;&gt;&lt;strong&gt;Role Overview&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Science Intern&lt;/strong&gt; | &lt;em&gt;June 2024 – Aug 2024&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;My internship at the Centre of Data Modelling, Analytics and Visualization (CODMAV) was focused on healthcare analytics, specifically leveraging machine learning for early disease detection.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-projects&#34;&gt;&lt;strong&gt;Key Projects&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lung Cancer Risk Prediction System&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Lung-Cancer-ML&#34;&gt;View GitHub Repository&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Led the development of a &lt;strong&gt;Lung Cancer Risk Prediction System&lt;/strong&gt; for early-stage risk assessment.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Preperation:&lt;/strong&gt; Performed extensive data cleaning and preprocessing, including &lt;strong&gt;Random Forest&lt;/strong&gt; based missing value imputation.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dimensionality Reduction:&lt;/strong&gt; I applied advanced feature selection techniques such as &lt;strong&gt;PCA (Principal Component Analysis)&lt;/strong&gt;, &lt;strong&gt;BSO&lt;/strong&gt;, &lt;strong&gt;RFE (Recursive Feature Elimination)&lt;/strong&gt;, and &lt;strong&gt;SelectKBest&lt;/strong&gt; to optimize the dataset for training.&lt;/li&gt;&#xA;&lt;li&gt;The final feature set was &lt;strong&gt;validated&lt;/strong&gt; by a &lt;strong&gt;doctor&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Model Development:&lt;/strong&gt; Implemented and tuned multiple machine learning models including &lt;strong&gt;XGBoost&lt;/strong&gt;, &lt;strong&gt;CatBoost&lt;/strong&gt;, &lt;strong&gt;SVM&lt;/strong&gt;, and &lt;strong&gt;KNN&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Results:&lt;/strong&gt; Developed an Ensemble Model that combined the strengths of individual classifiers, achieving a peak accuracy of &lt;strong&gt;98.75%&lt;/strong&gt; and a recall of &lt;strong&gt;96.25%&lt;/strong&gt; for the &lt;strong&gt;RFE-selected features&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;research--publication&#34;&gt;&lt;strong&gt;Research &amp;amp; Publication&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Conducted in-depth research on Lung Cancer markers and ML techniques.&lt;/li&gt;&#xA;&lt;li&gt;Co-authored a research paper titled &lt;em&gt;&amp;ldquo;Predictive Analytics for Early Lung Cancer Risk using Machine Learning,&amp;rdquo;&lt;/em&gt; which was accepted and published in &lt;strong&gt;IEEE Xplore&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/11256225&#34;&gt;View Publication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Restaurant Ordering System</title>
+      <link>http://localhost:1313/projects/restaurant/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/restaurant/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Restaurant-Ordering-System&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
