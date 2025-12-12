@@ -71,6 +71,7 @@
     display: inline-block;
     margin-right: 15px;
     text-decoration: none;
+    white-space: nowrap;
 
     &:hover {
       text-decoration: underline;

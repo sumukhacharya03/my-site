@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Achievements on Sumukh Acharya</title>
+    <link>http://localhost:1313/achievements/</link>
+    <description>Recent content in Achievements on Sumukh Acharya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/achievements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IBM Professional Data Science Certificate</title>
+      <link>http://localhost:1313/achievements/ibm-data-science/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/achievements/ibm-data-science/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/account/accomplishments/specialization/TVBQU6G1ZLTS&#34;&gt;Link to Certificate&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kaggle Data Analytics Hackathon 2</title>
+      <link>http://localhost:1313/achievements/da-hackathon-2/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/achievements/da-hackathon-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Dynamic-Fare-Engine&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kaggle Data Analytics Hackathon 1</title>
+      <link>http://localhost:1313/achievements/da-hackthaon-1/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/achievements/da-hackthaon-1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Streamly&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

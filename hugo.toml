@@ -59,6 +59,18 @@ theme = 'hello-friend-ng'
     url        = "/projects"
     weight     = 3
 
+  [[menu.main]]
+    identifier = "achievements"
+    name       = "Achievements"
+    url        = "/achievements"
+    weight     = 4
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 5
+    
 # Enable HTML for custom image styling (if needed later)
 [markup]
   [markup.goldmark]

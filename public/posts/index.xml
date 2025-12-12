@@ -1,0 +1,11 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Sumukh Acharya</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Sumukh Acharya</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+    </channel>
+</rss>
