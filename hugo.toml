@@ -15,7 +15,7 @@ theme = 'hello-friend-ng'
   subtitle = ""
   
   # Set the homepage to look like a profile
-  homeSubtitle = "AI Intern @ Tvam Technologies"
+  homeSubtitle = "AI Intern @ tvam Technologies"
 
   # Footer
   footerCopyright = 'Sumukh Acharya | sumukh.acharya@gmail.com'
@@ -25,7 +25,7 @@ theme = 'hello-friend-ng'
 
   # --- LOGO SETTINGS (Top Left) ---
   [params.logo]
-    logoText     = "Sumukh Acharya"
+    logoText     = "Hallo"
     logoHomeLink = "/"
     # cursor = false  # Uncomment this to remove the blinking cursor
 
@@ -66,9 +66,9 @@ theme = 'hello-friend-ng'
     weight     = 4
   
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
+    identifier = "blogs"
+    name = "Blogs"
+    url = "/blogs"
     weight = 5
     
 # Enable HTML for custom image styling (if needed later)
