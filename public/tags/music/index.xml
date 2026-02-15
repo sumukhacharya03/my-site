@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on Sumukh Acharya</title>
+    <link>http://localhost:1313/tags/music/</link>
+    <description>Recent content in Music on Sumukh Acharya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Feb 2026 15:15:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Silence is Loud</title>
+      <link>http://localhost:1313/posts/music_blog/</link>
+      <pubDate>Sun, 15 Feb 2026 15:15:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/music_blog/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my Blog!&lt;/h2&gt;&#xA;&lt;h3 id=&#34;intro&#34;&gt;Intro&lt;/h3&gt;&#xA;&lt;p&gt;As I write this, I have made a conscious decision to quit listening to music for 6 months.&lt;/p&gt;&#xA;&lt;p&gt;You might ask: Why?&lt;/p&gt;&#xA;&lt;p&gt;To be honest, I have been addicted. For the last two years, I’ve had headphones on constantly—while traveling, walking, and even during &amp;ldquo;focused&amp;rdquo; work. I was listening to music a lot. A lot.&lt;/p&gt;&#xA;&lt;p&gt;The worst part wasn&amp;rsquo;t just the volume; it was the content. My consumption became repetitive, looping the same tracks hundreds of times. My taste progressively worsened, shifting toward sped-up, high-dopamine TikTok edits designed to hack my attention. I realized the lyrics and beats were hijacking my emotions and dictating my mood. My mind was in an altered state whenever the headphones were on.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

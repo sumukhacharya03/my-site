@@ -25,7 +25,7 @@ theme = 'hello-friend-ng'
 
   # --- LOGO SETTINGS (Top Left) ---
   [params.logo]
-    logoText     = "Hallo"
+    logoText     = "Hola"
     logoHomeLink = "/"
     # cursor = false  # Uncomment this to remove the blinking cursor
 
@@ -37,7 +37,18 @@ theme = 'hello-friend-ng'
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/sumukh-acharya-6859ab312/"
+
+  [[params.social]]
+    name = "leetcode"
+    url = "https://leetcode.com/u/SumukhAcharya07/" 
+
+  [[params.social]]
+    name = "cv"
+    url  = "/resume.pdf"
   
+  [[params.social]]
+    name = "vsco"
+    url = "https://vsco.co/sumukhacharya/gallery"
 
 # The Menu Navigation
 [menu]
@@ -70,6 +81,12 @@ theme = 'hello-friend-ng'
     name = "Blogs"
     url = "/blogs"
     weight = 5
+  
+  [[menu.main]]
+    identifier = "photography"
+    name       = "Photography"
+    url        = "/photography"
+    weight     = 6
     
 # Enable HTML for custom image styling (if needed later)
 [markup]

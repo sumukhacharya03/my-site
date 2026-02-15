@@ -6,14 +6,21 @@
     <description>Recent content on Sumukh Acharya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 15:15:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Silence is Loud</title>
+      <link>http://localhost:1313/posts/music_blog/</link>
+      <pubDate>Sun, 15 Feb 2026 15:15:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/music_blog/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my Blog!&lt;/h2&gt;&#xA;&lt;h3 id=&#34;intro&#34;&gt;Intro&lt;/h3&gt;&#xA;&lt;p&gt;As I write this, I have made a conscious decision to quit listening to music for 6 months.&lt;/p&gt;&#xA;&lt;p&gt;You might ask: Why?&lt;/p&gt;&#xA;&lt;p&gt;To be honest, I have been addicted. For the last two years, I’ve had headphones on constantly—while traveling, walking, and even during &amp;ldquo;focused&amp;rdquo; work. I was listening to music a lot. A lot.&lt;/p&gt;&#xA;&lt;p&gt;The worst part wasn&amp;rsquo;t just the volume; it was the content. My consumption became repetitive, looping the same tracks hundreds of times. My taste progressively worsened, shifting toward sped-up, high-dopamine TikTok edits designed to hack my attention. I realized the lyrics and beats were hijacking my emotions and dictating my mood. My mind was in an altered state whenever the headphones were on.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I’m a final-year Computer Science student at PES University and currently an AI Intern at Tvam Technologies. My work focuses on fine-tuning language models, and I’m deeply fascinated by how AI can be applied to solve meaningful real-world problems.&lt;/p&gt;&#xA;&lt;p&gt;As I grow in this field, I aim to advance from fine-tuning existing models to building my own. I’m always looking for opportunities to strengthen my skills, take on new challenges, and contribute to impactful projects. I also have a growing interest in Big Data and Database Systems, helping me build a strong and versatile technical foundation. Outside of technology, I enjoy capturing moments through photography and love the strategic challenge of chess.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I’m a final-year Computer Science student at PES University and currently an AI Intern at Tvam Technologies. My current work focuses on fine-tuning language models, and I’m deeply fascinated by how AI can be applied to solve meaningful real-world problems.&lt;/p&gt;&#xA;&lt;p&gt;As I grow in this field, I aim to advance from fine-tuning existing models to building my own. I’m always looking for opportunities to strengthen my skills, take on new challenges, and contribute to impactful projects. I also have a growing interest in Big Data and Database Systems, helping me build a strong and versatile technical foundation. Outside of technology, I enjoy capturing moments through photography and love the strategic challenge of chess.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Intern @ Tvam Technologies</title>
@@ -105,6 +112,13 @@
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/restaurant/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Restaurant-Ordering-System&#34;&gt;Link to GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Photography</title>
+      <link>http://localhost:1313/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/</guid>
+      <description>&lt;div style=&#34;text-align: center; margin-bottom: 40px;&#34;&gt;&#xD;&#xA;    &lt;p style=&#34;color: #888; margin-bottom: 15px;&#34;&gt;To see more of my clicks, visit my profile here:&lt;/p&gt;&#xD;&#xA;    &lt;a href=&#34;https://vsco.co/sumukhacharya/gallery&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; background-color: #333; color: white; padding: 12px 24px; border-radius: 30px; font-weight: bold; display: inline-flex; align-items: center; gap: 10px;&#34;&gt;&#xD;&#xA;        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;20&#34; height=&#34;20&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; class=&#34;feather feather-camera&#34;&gt;&lt;path d=&#34;M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z&#34;&gt;&lt;/path&gt;&lt;circle cx=&#34;12&#34; cy=&#34;13&#34; r=&#34;4&#34;&gt;&lt;/circle&gt;&lt;/svg&gt;&#xD;&#xA;        My VSCO Gallery&#xD;&#xA;    &lt;/a&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;few-of-my-clicks&#34;&gt;Few of my Clicks&lt;/h3&gt;&#xA;&lt;div style=&#34;display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; justify-items: center; margin-top: 30px;&#34;&gt;&#xD;&#xA;&#xD;&#xA;    &lt;div style=&#34;width: 100%; max-width: 350px;&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/images/photo1.jpg&#34; alt=&#34;Photo 1&#34; style=&#34;width: 100%; height: 300px; object-fit: cover; border-radius: 15px; border: 3px solid #444; box-shadow: 0 8px 16px rgba(0,0,0,0.3);&#34;&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &lt;div style=&#34;width: 100%; max-width: 350px;&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/images/photo2.jpg&#34; alt=&#34;Photo 2&#34; style=&#34;width: 100%; height: 300px; object-fit: cover; border-radius: 15px; border: 3px solid #444; box-shadow: 0 8px 16px rgba(0,0,0,0.3);&#34;&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &lt;div style=&#34;width: 100%; max-width: 350px;&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/images/photo3.jpg&#34; alt=&#34;Photo 3&#34; style=&#34;width: 100%; height: 300px; object-fit: cover; border-radius: 15px; border: 3px solid #444; box-shadow: 0 8px 16px rgba(0,0,0,0.3);&#34;&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &lt;div style=&#34;width: 100%; max-width: 350px;&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/images/photo4.jpg&#34; alt=&#34;Photo 4&#34; style=&#34;width: 100%; height: 300px; object-fit: cover; border-radius: 15px; border: 3px solid #444; box-shadow: 0 8px 16px rgba(0,0,0,0.3);&#34;&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
