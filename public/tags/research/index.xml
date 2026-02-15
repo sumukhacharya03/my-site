@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Sumukh Acharya</title>
+    <link>http://localhost:1313/tags/research/</link>
+    <description>Recent content in Research on Sumukh Acharya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science Intern @ CODMAV Research Centre (PES University)</title>
+      <link>http://localhost:1313/experience/codmav/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/codmav/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;During my tenure at the &lt;strong&gt;Centre of Data Modelling, Analytics and Visualization (CODMAV)&lt;/strong&gt;, I worked at the intersection of healthcare and Artificial Intelligence. My primary objective was to build a robust predictive system capable of identifying lung cancer risk at an early stage, which is critical for patient survival rates.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;the-technical-challenge&#34;&gt;&lt;strong&gt;The Technical Challenge&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The core difficulty of this project lay in the sheer scale and sparsity of the raw clinical data. Sourced from the &lt;a href=&#34;https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GD5XWE&#34;&gt;Harvard Dataverse (Lung Cancer Risk Prediction Dataset)&lt;/a&gt;, the initial dataset was massive but significantly noisy, comprising &lt;strong&gt;22,811 patient records&lt;/strong&gt; and &lt;strong&gt;788 health markers&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

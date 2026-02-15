@@ -6,8 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Lung Cancer Risk Prediction System" />
-<meta name="keywords" content="" />
+<meta name="description" content="Developing a high-precision Lung Cancer Risk Prediction System using Ensemble Learning" />
+<meta name="keywords" content=", Data Science, Machine Learning, Healthcare, Research" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
 <link rel="canonical" href="http://localhost:1313/experience/codmav/" />
@@ -15,7 +15,7 @@
 
     <title>
         
-            Data Science Intern @ CODMAV (PES University) :: Sumukh Acharya 
+            Data Science Intern @ CODMAV Research Centre (PES University) :: Sumukh Acharya 
         
     </title>
 
@@ -39,15 +39,16 @@
 
 
 
-  <meta itemprop="name" content="Data Science Intern @ CODMAV (PES University)">
-  <meta itemprop="description" content="Lung Cancer Risk Prediction System">
+  <meta itemprop="name" content="Data Science Intern @ CODMAV Research Centre (PES University)">
+  <meta itemprop="description" content="Developing a high-precision Lung Cancer Risk Prediction System using Ensemble Learning">
   <meta itemprop="datePublished" content="2024-06-01T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-06-01T00:00:00+00:00">
-  <meta itemprop="wordCount" content="191">
+  <meta itemprop="wordCount" content="942">
+  <meta itemprop="keywords" content="Data Science,Machine Learning,Healthcare,Research">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Data Science Intern @ CODMAV (PES University)">
-  <meta name="twitter:description" content="Lung Cancer Risk Prediction System">
+  <meta name="twitter:title" content="Data Science Intern @ CODMAV Research Centre (PES University)">
+  <meta name="twitter:description" content="Developing a high-precision Lung Cancer Risk Prediction System using Ensemble Learning">
 
 
 
@@ -98,8 +99,6 @@
     <ul class="menu__inner">
                 <li><a href="/about">About Me</a></li>
             
-                <li><a href="/achievements">Achievements</a></li>
-            
                 <li><a href="/blogs">Blogs</a></li>
             
                 <li><a href="/experience">Experience</a></li>
@@ -145,33 +144,217 @@
             </div>
 
             <article>
-                <h2 class="post-title"><a href="http://localhost:1313/experience/codmav/">Data Science Intern @ CODMAV (PES University)</a></h2>
+                <h2 class="post-title"><a href="http://localhost:1313/experience/codmav/">Data Science Intern @ CODMAV Research Centre (PES University)</a></h2>
 
                 
                 
                 
 
                 <div class="post-content">
-                    <h3 id="role-overview"><strong>Role Overview</strong></h3>
-<p><strong>Data Science Intern</strong> | <em>June 2024 – Aug 2024</em></p>
-<p>My internship at the Centre of Data Modelling, Analytics and Visualization (CODMAV) was focused on healthcare analytics, specifically leveraging machine learning for early disease detection.</p>
-<h3 id="key-projects"><strong>Key Projects</strong></h3>
-<p><strong>Lung Cancer Risk Prediction System</strong></p>
+                    <h3 id="overview"><strong>Overview</strong></h3>
+<p>During my tenure at the <strong>Centre of Data Modelling, Analytics and Visualization (CODMAV)</strong>, I worked at the intersection of healthcare and Artificial Intelligence. My primary objective was to build a robust predictive system capable of identifying lung cancer risk at an early stage, which is critical for patient survival rates.</p>
+<hr>
+<h3 id="the-technical-challenge"><strong>The Technical Challenge</strong></h3>
+<p>The core difficulty of this project lay in the sheer scale and sparsity of the raw clinical data. Sourced from the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GD5XWE">Harvard Dataverse (Lung Cancer Risk Prediction Dataset)</a>, the initial dataset was massive but significantly noisy, comprising <strong>22,811 patient records</strong> and <strong>788 health markers</strong>.</p>
+<h4 id="1-data-refinement-workflow"><strong>1. Data Refinement Workflow</strong></h4>
+<p>To transform this high-dimensional, sparse data into a usable format, I implemented a rigorous multi-stage cleaning pipeline:</p>
 <ul>
-<li><a href="https://github.com/sumukhacharya03/Lung-Cancer-ML">View GitHub Repository</a></li>
-<li>Led the development of a <strong>Lung Cancer Risk Prediction System</strong> for early-stage risk assessment.</li>
-<li><strong>Data Preperation:</strong> Performed extensive data cleaning and preprocessing, including <strong>Random Forest</strong> based missing value imputation.</li>
-<li><strong>Dimensionality Reduction:</strong> I applied advanced feature selection techniques such as <strong>PCA (Principal Component Analysis)</strong>, <strong>BSO</strong>, <strong>RFE (Recursive Feature Elimination)</strong>, and <strong>SelectKBest</strong> to optimize the dataset for training.</li>
-<li>The final feature set was <strong>validated</strong> by a <strong>doctor</strong>.</li>
-<li><strong>Model Development:</strong> Implemented and tuned multiple machine learning models including <strong>XGBoost</strong>, <strong>CatBoost</strong>, <strong>SVM</strong>, and <strong>KNN</strong>.</li>
-<li><strong>Results:</strong> Developed an Ensemble Model that combined the strengths of individual classifiers, achieving a peak accuracy of <strong>98.75%</strong> and a recall of <strong>96.25%</strong> for the <strong>RFE-selected features</strong>.</li>
+<li><strong>Null Elimination:</strong> Removed all columns that were entirely empty across all 22,811 records.</li>
+<li><strong>Sparsity Filtering:</strong> Identified and removed features with fewer than 1,000 filled entries, ensuring that only statistically significant markers remained.</li>
+<li><strong>Advanced Data Imputation:</strong> For the remaining features, I implemented <strong>Random Forest-based missing value imputation</strong>. By using decision trees to predict missing values based on patterns in existing data, I maintained the integrity of the clinical relationships between variables.</li>
 </ul>
+<h4 id="2-clinical-feature-validation"><strong>2. Clinical Feature Validation</strong></h4>
+<p>This process distilled the initial 788 markers down to a critical set of <strong>89 core features</strong>. To ensure the model remained grounded in medical reality, these 89 markers were <strong>vetted and validated by a professional oncologist</strong> to align with established diagnostic standards.</p>
+<h3 id="health-markers"><strong>Health Markers</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Age</strong></td>
+          <td style="text-align: left"><strong>Gender</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Smoking History</strong></td>
+          <td style="text-align: left"><strong>Chest Pain</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Fatigue</strong></td>
+          <td style="text-align: left"><strong>Coughing of Blood</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Shortness of Breath</strong></td>
+          <td style="text-align: left"><strong>Weight Loss</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Wheezing</strong></td>
+          <td style="text-align: left"><strong>Swallowing Difficulty</strong></td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p><em>Note: These are just 10 illustrative markers from the final set of 89 medically-validated features used for model training.</em></p>
+</blockquote>
+<hr>
+<h3 id="the-machine-learning-pipeline"><strong>The Machine Learning Pipeline</strong></h3>
+<p>Building a high-accuracy clinical tool required a multi-stage pipeline, moving from massive feature reduction to complex model ensembling.</p>
+<h3 id="step-1-dimensionality-reduction"><strong>Step 1: Dimensionality Reduction</strong></h3>
+<blockquote>
+<p><strong>Definition:</strong> The process of reducing the number of input variables in a dataset while preserving as much information as possible. This prevents the &ldquo;curse of dimensionality&rdquo; and improves model speed.</p>
+</blockquote>
+<p>I compared four distinct algorithms to reduce our <strong>89 clinical features</strong> into a lean, highly-predictive subset.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Algorithm</th>
+          <th style="text-align: left">Features Kept</th>
+          <th style="text-align: left">Why Chose This?</th>
+          <th style="text-align: left">Pros</th>
+          <th style="text-align: left">Cons</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Principal Component Analysis (PCA)</strong></td>
+          <td style="text-align: left">31</td>
+          <td style="text-align: left">To capture maximum variance through linear combinations.</td>
+          <td style="text-align: left">Fast; removes correlated features.</td>
+          <td style="text-align: left">Results are hard for doctors to interpret.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Brain Storm Optimization (BSO)</strong></td>
+          <td style="text-align: left">51</td>
+          <td style="text-align: left">A swarm-intelligence approach to find global optimums.</td>
+          <td style="text-align: left">Avoids local optima; highly robust.</td>
+          <td style="text-align: left">Computationally expensive.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Recursive Feature Elimination (RFE)</strong></td>
+          <td style="text-align: left">31</td>
+          <td style="text-align: left">Iteratively prunes the least important features.</td>
+          <td style="text-align: left">Very accurate; considers feature interactions.</td>
+          <td style="text-align: left">Can be slow on large datasets.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>SelectKBest</strong></td>
+          <td style="text-align: left">51</td>
+          <td style="text-align: left">Uses statistical tests (Chi-Squared) to pick top features.</td>
+          <td style="text-align: left">Simple and very fast.</td>
+          <td style="text-align: left">Ignores relationships between features.</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="step-2-individual-model-training"><strong>Step 2: Individual Model Training</strong></h3>
+<blockquote>
+<p><strong>Definition:</strong> Training diverse classification architectures to identify which mathematical approach best fits the patterns of lung cancer risk.</p>
+</blockquote>
+<p>I applied 4 industry-standard models to each of the reduced datasets created in Step 1.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Model Name</th>
+          <th style="text-align: left">Why Chose This?</th>
+          <th style="text-align: left">Pros</th>
+          <th style="text-align: left">Cons</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Extreme Gradient Boosting (XGBoost)</strong></td>
+          <td style="text-align: left">Known for high performance and speed.</td>
+          <td style="text-align: left">Handles missing data; very accurate.</td>
+          <td style="text-align: left">Can overfit if not tuned carefully.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Categorical Boosting (CatBoost)</strong></td>
+          <td style="text-align: left">Specialized in handling categorical clinical data.</td>
+          <td style="text-align: left">Reduces overfitting; requires less tuning.</td>
+          <td style="text-align: left">Slower training compared to XGBoost.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Support Vector Machine (SVM)</strong></td>
+          <td style="text-align: left">Effective in high-dimensional spaces.</td>
+          <td style="text-align: left">Memory efficient; clear margin of separation.</td>
+          <td style="text-align: left">Not suitable for very large datasets.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>K-Nearest Neighbors (KNN)</strong></td>
+          <td style="text-align: left">A simple, similarity-based baseline.</td>
+          <td style="text-align: left">Easy to implement; no training phase.</td>
+          <td style="text-align: left">Sensitive to noisy data and outliers.</td>
+      </tr>
+  </tbody>
+</table>
+
+    <img src="/images/experience/results_comparison.png"  alt="Individual Model Results"  class="center"  />
+
+
+<h3 id="step-3-the-voting-ensemble-strategy"><strong>Step 3: The Voting Ensemble Strategy</strong></h3>
+<blockquote>
+<p><strong>Definition:</strong> A &ldquo;Wisdom of the Crowd&rdquo; approach where multiple models are combined to produce one superior prediction.</p>
+</blockquote>
+<p>To maximize reliability, I developed a <strong>Voting Ensemble Model</strong>. Instead of relying on a single algorithm, this ensemble takes the predictions from XGBoost, CatBoost, SVM, and KNN and combines them.</p>
+<p><strong>How it works:</strong>
+I used <strong>Soft Voting</strong>, where the ensemble calculates the average probability predicted by each model. If the average probability for &ldquo;High Risk&rdquo; is above 50%, the final system flags it. This smooths out the individual errors of any single model.</p>
+<p><strong>The Results:</strong>
+The Ensemble approach, when paired with <strong>Recursive Feature Elimination (RFE)</strong>, yielded the best results for clinical application.</p>
+<ul>
+<li><strong>Accuracy:</strong> 98.75%</li>
+<li><strong>Recall (Sensitivity):</strong> 96.25%</li>
+</ul>
+
+    <img src="/images/experience/ensemble_results.png"  alt="Ensemble Model Performance"  class="center"  />
+
+
+<hr>
+<h3 id="novelty"><strong>Novelty</strong></h3>
+<p>The primary novelty of this research lies in the comprehensive comparative analysis of traditional statistical feature selection versus advanced meta-heuristic and elimination techniques for lung cancer risk prediction.</p>
+<p>Key innovations include:</p>
+<ul>
+<li>
+<p><strong>Heuristic Integration</strong>: Applying Brain Storm Optimization (BSO), a swarm-intelligence algorithm, to explore the high-dimensional clinical feature space—a method rarely applied in lung cancer diagnostic pipelines.</p>
+</li>
+<li>
+<p><strong>Clinical-Algorithmic Hybrid</strong>: Bridging the gap between pure data science and medical practice by having the algorithmically-selected features validated by an oncologist for clinical relevance.</p>
+</li>
+<li>
+<p><strong>Custom Ensemble Architecture</strong>: Implementing a Soft-Voting Ensemble that specifically prioritizes Recall, ensuring the system minimizes false negatives which is critical in early-stage cancer screening.</p>
+</li>
+</ul>
+<hr>
+<h3 id="conclusion-and-future-work"><strong>Conclusion and Future Work</strong></h3>
+<p>Our study successfully developed a high-precision prediction system achieving a peak accuracy of 98.81%. This demonstrates that a carefully curated set of clinical health markers can serve as a robust preliminary screening tool.</p>
+<p>Future Work:</p>
+<ul>
+<li>
+<p><strong>Real-world Deployment</strong>: Integrating this model into hospital management systems for pilot testing on live patient data.</p>
+</li>
+<li>
+<p><strong>Dynamic Data Integration</strong>: Expanding the feature set to include real-time genomic markers and imaging data (like low-dose CT scan reports) for even higher diagnostic depth.</p>
+</li>
+<li>
+<p><strong>Model Explainability</strong>: Incorporating SHAP or LIME values to provide doctors with &ldquo;explainable AI&rdquo; reasons for every high-risk flag raised.</p>
+</li>
+</ul>
+<hr>
 <h3 id="research--publication"><strong>Research &amp; Publication</strong></h3>
+<p>My research findings and the methodology developed during this internship were peer-reviewed and accepted for publication.</p>
 <ul>
-<li>Conducted in-depth research on Lung Cancer markers and ML techniques.</li>
-<li>Co-authored a research paper titled <em>&ldquo;Predictive Analytics for Early Lung Cancer Risk using Machine Learning,&rdquo;</em> which was accepted and published in <strong>IEEE Xplore</strong>.</li>
-<li><a href="https://ieeexplore.ieee.org/document/11256225">View Publication</a></li>
+<li>
+<p><strong>Paper Title</strong>: &ldquo;Predictive Analytics for Early Lung Cancer Risk using Machine Learning&rdquo;.</p>
+</li>
+<li>
+<p><strong>Venue</strong>: 2025 IEEE International Conference on Contemporary Computing and Communications (InC4).</p>
+</li>
+<li>
+<p><strong>Indexing</strong>: Accepted for inclusion in IEEE Xplore Digital Library.</p>
+</li>
 </ul>
+<p><a href="https://ieeexplore.ieee.org/document/11256225"><strong>Read the Full Paper</strong></a> | <a href="https://github.com/sumukhacharya03/Lung-Cancer-ML"><strong>GitHub Repository</strong></a></p>
 
                 </div>
             </article>
@@ -180,6 +363,16 @@
 
             <div class="post-info">
                 
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/data-science/">Data Science</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/machine-learning/">Machine Learning</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/healthcare/">Healthcare</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/research/">Research</a></span>
+        
+    </p>
+
                 
             </div>
         </main>
