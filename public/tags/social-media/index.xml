@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brain-Fog on Sumukh Acharya</title>
-    <link>http://localhost:1313/tags/brain-fog/</link>
-    <description>Recent content in Brain-Fog on Sumukh Acharya</description>
+    <title>Social-Media on Sumukh Acharya</title>
+    <link>http://localhost:1313/tags/social-media/</link>
+    <description>Recent content in Social-Media on Sumukh Acharya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Mar 2026 14:00:00 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/brain-fog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Silence is Loud</title>
       <link>http://localhost:1313/posts/music_blog/</link>
