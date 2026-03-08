@@ -43,7 +43,7 @@
   <meta itemprop="description" content="Real-Time Stock Market for F1 Drivers">
   <meta itemprop="datePublished" content="2025-07-01T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-07-01T00:00:00+00:00">
-  <meta itemprop="wordCount" content="6">
+  <meta itemprop="wordCount" content="203">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Grid Pulse">
@@ -151,9 +151,25 @@
 
                 <div class="post-content">
                     <p><a href="https://github.com/sumukhacharya03/Grid-Pulse" target="_blank" rel="noopener noreferrer">
-  Link to GitHub
+  GitHub →
 </a></p>
-<p><strong>Content Coming Soon</strong></p>
+<h3 id="what-is-it">What is it?</h3>
+<p><strong>Grid-Pulse</strong> is a real-time data pipeline that turns F1 race weekends into a live stock market. Every driver has a stock value that rises and falls based on their performance — qualifying laps, race positions, practice results — visualised on a live dashboard that updates as events unfold.</p>
+<h3 id="why-i-built-it">Why I built it</h3>
+<p>F1 is already obsessive about data. I wanted to explore what it would look like to model driver performance as a financial instrument — and use it as a real excuse to build a proper streaming data pipeline from scratch, not just a toy script.</p>
+<h3 id="how-it-works">How it works</h3>
+<p>The system runs in two phases:</p>
+<ol>
+<li><strong>Historical batch processing</strong> — scrapes baseline driver values and processes a full simulated season to establish the initial market state.</li>
+<li><strong>Live stream processing</strong> — a long-running service listens for real-time race weekend events (triggered by a cron job on race days) and applies incremental updates to each driver&rsquo;s stock value.</li>
+</ol>
+<p>Data flows through Apache Kafka, which decouples the producers (data generators) from the consumers (calculation service and dashboard), so each component runs independently.</p>
+<h3 id="tech-stack">Tech Stack</h3>
+<ul>
+<li><strong>Data pipeline:</strong> Python, Apache Kafka</li>
+<li><strong>Dashboard:</strong> Streamlit</li>
+<li><strong>Data sources:</strong> Scraped baseline values + simulated race event generators</li>
+</ul>
 
                 </div>
             </article>

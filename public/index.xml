@@ -20,7 +20,7 @@
       <link>http://localhost:1313/experience/pes_la/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/pes_la/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Content Coming Soon&amp;hellip;&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;PES University · Jan 2026 – May 2026&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content coming soon&amp;hellip;.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
@@ -41,56 +41,56 @@
       <link>http://localhost:1313/projects/senior-vision/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/senior-vision/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Senior-Vision-AI&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  Link to GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Senior-Vision-AI&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  GitHub →&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Scan-n-Say&lt;/strong&gt; is a mobile web app that helps elderly and visually impaired users shop independently at supermarkets. Point your phone camera at any product, and the app reads out a simple, friendly summary of what&amp;rsquo;s on the label — no squinting required.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h3&gt;&#xA;&lt;p&gt;Product labels are a nightmare — tiny fonts, dense ingredient lists, unfamiliar terms. For older adults or anyone with low vision, this makes supermarket shopping unnecessarily hard. I wanted to fix that with something genuinely useful: a tool that strips away the noise and just tells you what you need to know.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Database Teaching Assistant @ PES University</title>
       <link>http://localhost:1313/experience/pes_dbms/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/pes_dbms/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Content Coming Soon&amp;hellip;&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;PES University · Aug 2025 – Dec 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-i-did&#34;&gt;What I did&lt;/h3&gt;&#xA;&lt;p&gt;Served as a Teaching Assistant for the Databases course, supporting 150+ students across lab sessions, assignments, and doubt-clearing.&lt;/p&gt;&#xA;&lt;p&gt;On the technical side: helped students work through SQL query debugging, schema design problems, and core database concepts — normalisation, indexing, transactions, and the like. A lot of the real learning happened in one-on-one debugging sessions where the goal was to get students to spot their own mistakes, not just hand them the answer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python Teaching Assistant @ PES University</title>
       <link>http://localhost:1313/experience/pes_python/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/pes_python/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Content Coming Soon&amp;hellip;&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;PES University · Aug 2025 – Dec 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-i-did&#34;&gt;What I did&lt;/h3&gt;&#xA;&lt;p&gt;Served as a Teaching Assistant for the Python programming course, supporting 150+ students across lab sessions, assignments, and doubt-clearing.&lt;/p&gt;&#xA;&lt;p&gt;On the technical side: helped students debug code, understand core Python concepts — data structures, control flow, functions, file handling — and develop an intuition for writing clean, readable programs. Most of the valuable sessions were the messy ones: sitting with a student over a broken script and walking through it line by line until the bug revealed itself.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grid Pulse</title>
       <link>http://localhost:1313/projects/grid-pulse/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/grid-pulse/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Grid-Pulse&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  Link to GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Grid-Pulse&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  GitHub →&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Grid-Pulse&lt;/strong&gt; is a real-time data pipeline that turns F1 race weekends into a live stock market. Every driver has a stock value that rises and falls based on their performance — qualifying laps, race positions, practice results — visualised on a live dashboard that updates as events unfold.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h3&gt;&#xA;&lt;p&gt;F1 is already obsessive about data. I wanted to explore what it would look like to model driver performance as a financial instrument — and use it as a real excuse to build a proper streaming data pipeline from scratch, not just a toy script.&lt;/p&gt;</description>
     </item>
     <item>
       <title>URL Shortener</title>
       <link>http://localhost:1313/projects/url-shortener/</link>
       <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/url-shortener/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/URL-Shortener&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  Link to GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/URL-Shortener&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  GitHub →&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h3&gt;&#xA;&lt;p&gt;A production-grade URL shortening service — the kind of system you&amp;rsquo;d actually deploy, not just demo. Built with Flask and Redis, containerised with Docker, and orchestrated on Kubernetes with autoscaling, load balancing, and health monitoring out of the box.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h3&gt;&#xA;&lt;p&gt;URL shorteners are a classic system design problem. I wanted to go beyond the basic implementation and actually build it the way it would run in production — with horizontal scaling, ingress routing, and the ability to handle real traffic spikes without falling over.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DFOS</title>
       <link>http://localhost:1313/projects/dfos/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/dfos/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/DFOS&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  Link to GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/DFOS&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  GitHub →&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h3&gt;&#xA;&lt;p&gt;A multi-client file transfer system built from scratch in Python — no frameworks, just raw sockets. Clients authenticate, get their own isolated storage directory on the server, and can upload, download, preview, or delete files concurrently without stepping on each other.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h3&gt;&#xA;&lt;p&gt;I wanted to understand what actually happens under the hood when files move across a network — before abstractions like FTP clients or cloud SDKs hide all the interesting parts. Building it at the socket level made the concurrency and protocol design problems impossible to ignore.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dynamic Fare Engine</title>
       <link>http://localhost:1313/projects/dynamic-fare/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/dynamic-fare/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Dynamic-Fare-Engine&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  Link to GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Dynamic-Fare-Engine&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  GitHub →&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h3&gt;&#xA;&lt;p&gt;A fare forecasting system for RideWave, a fictional urban mobility company operating bikes, autos, and cars in Quahog City. Given three years of hourly fare data (2021–2023), I built predictive models for each vehicle type and combined them into an ensemble to power dynamic pricing recommendations.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h3&gt;&#xA;&lt;p&gt;Dynamic pricing is one of the more interesting applied ML problems — it sits at the intersection of time series forecasting, business strategy, and real operational constraints. I wanted to work through the full pipeline: exploratory analysis, model selection, feature engineering, and ensemble design, rather than just fitting a single off-the-shelf model.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Streamly</title>
       <link>http://localhost:1313/projects/streamly/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/streamly/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Streamly&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  Link to GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Streamly&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  GitHub →&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h3&gt;&#xA;&lt;p&gt;A data analysis and modelling project for Streamly, a fictional streaming platform. Using their catalogue and engagement data, I analysed what content actually drives user retention and built regression models to predict it — giving the business a data-backed foundation for content decisions.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h3&gt;&#xA;&lt;p&gt;Streaming platforms live and die by retention. I was curious about what the data actually says when you cut through intuition — does budget correlate with ROI? Do certain genres retain users better than others? This project was about asking those questions rigorously and letting the analysis answer them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Science Intern @ CODMAV Research Centre (PES University)</title>
@@ -104,7 +104,7 @@
       <link>http://localhost:1313/projects/restaurant/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/restaurant/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Restaurant-Ordering-System&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  Link to GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Content Coming Soon&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sumukhacharya03/Restaurant-Ordering-System&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;  GitHub →&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h3&gt;&#xA;&lt;p&gt;A client-server restaurant ordering system built in Python using raw sockets, secured with SSL/TLS. Clients can browse the menu, place orders, and get a GST-calculated bill — all over an encrypted connection.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h3&gt;&#xA;&lt;p&gt;This was an early deep-dive into network programming. I wanted to understand how client-server communication actually works at the socket level, and adding SSL on top made it a practical exercise in securing that channel — not just making things talk, but making them talk safely.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Photography</title>

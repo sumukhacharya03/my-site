@@ -43,7 +43,7 @@
   <meta itemprop="description" content="Ensemble Forecasting for RideWave">
   <meta itemprop="datePublished" content="2024-10-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-10-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="6">
+  <meta itemprop="wordCount" content="214">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Dynamic Fare Engine">
@@ -151,9 +151,26 @@
 
                 <div class="post-content">
                     <p><a href="https://github.com/sumukhacharya03/Dynamic-Fare-Engine" target="_blank" rel="noopener noreferrer">
-  Link to GitHub
+  GitHub →
 </a></p>
-<p><strong>Content Coming Soon</strong></p>
+<h3 id="what-is-it">What is it?</h3>
+<p>A fare forecasting system for RideWave, a fictional urban mobility company operating bikes, autos, and cars in Quahog City. Given three years of hourly fare data (2021–2023), I built predictive models for each vehicle type and combined them into an ensemble to power dynamic pricing recommendations.</p>
+<h3 id="why-i-built-it">Why I built it</h3>
+<p>Dynamic pricing is one of the more interesting applied ML problems — it sits at the intersection of time series forecasting, business strategy, and real operational constraints. I wanted to work through the full pipeline: exploratory analysis, model selection, feature engineering, and ensemble design, rather than just fitting a single off-the-shelf model.</p>
+<h3 id="how-it-works">How it works</h3>
+<p>Each vehicle type behaved differently in the data, so I used a different model for each:</p>
+<ul>
+<li><strong>Bikes</strong> → SARIMAX, to capture both trend and seasonality in the time series.</li>
+<li><strong>Autos</strong> → XGBoost, after feature engineering revealed patterns better suited to a gradient boosting approach.</li>
+<li><strong>Cars</strong> → VAR (Vector Autoregression), to model inter-variable relationships.</li>
+</ul>
+<p>The three models were then combined into an ensemble for a more robust final forecast. Performance was measured using SMAPE — a percentage-based error metric that handles the scale differences across vehicle types fairly.</p>
+<h3 id="tech-stack">Tech Stack</h3>
+<ul>
+<li><strong>Language:</strong> Python</li>
+<li><strong>Models:</strong> SARIMAX, XGBoost, VAR, Holt-Winters, Ensemble</li>
+<li><strong>Libraries:</strong> pandas, numpy, statsmodels, scikit-learn, matplotlib, seaborn</li>
+</ul>
 
                 </div>
             </article>

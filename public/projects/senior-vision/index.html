@@ -43,7 +43,7 @@
   <meta itemprop="description" content="AI Assistant for the Elderly">
   <meta itemprop="datePublished" content="2025-08-15T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-08-15T00:00:00+00:00">
-  <meta itemprop="wordCount" content="6">
+  <meta itemprop="wordCount" content="180">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Senior Vision AI">
@@ -151,9 +151,25 @@
 
                 <div class="post-content">
                     <p><a href="https://github.com/sumukhacharya03/Senior-Vision-AI" target="_blank" rel="noopener noreferrer">
-  Link to GitHub
+  GitHub →
 </a></p>
-<p><strong>Content Coming Soon</strong></p>
+<h3 id="what-is-it">What is it?</h3>
+<p><strong>Scan-n-Say</strong> is a mobile web app that helps elderly and visually impaired users shop independently at supermarkets. Point your phone camera at any product, and the app reads out a simple, friendly summary of what&rsquo;s on the label — no squinting required.</p>
+<h3 id="why-i-built-it">Why I built it</h3>
+<p>Product labels are a nightmare — tiny fonts, dense ingredient lists, unfamiliar terms. For older adults or anyone with low vision, this makes supermarket shopping unnecessarily hard. I wanted to fix that with something genuinely useful: a tool that strips away the noise and just tells you what you need to know.</p>
+<h3 id="how-it-works">How it works</h3>
+<ol>
+<li>You take a photo of a product using your phone.</li>
+<li>Google Cloud Vision OCR extracts the text from the packaging.</li>
+<li>Gemini processes that text and generates a short, plain-English summary.</li>
+<li>The app reads the summary aloud via text-to-speech and displays it in large, high-contrast text.</li>
+</ol>
+<h3 id="tech-stack">Tech Stack</h3>
+<ul>
+<li><strong>Backend:</strong> Python, Flask, Gunicorn — deployed on Render</li>
+<li><strong>Frontend:</strong> HTML, CSS, JavaScript — deployed on Vercel</li>
+<li><strong>AI:</strong> Google Cloud Vision API (OCR) + Google Gemini API (summarisation)</li>
+</ul>
 
                 </div>
             </article>

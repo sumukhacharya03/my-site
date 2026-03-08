@@ -43,7 +43,7 @@
   <meta itemprop="description" content="Load Balanced URL Shortener">
   <meta itemprop="datePublished" content="2025-03-15T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-03-15T00:00:00+00:00">
-  <meta itemprop="wordCount" content="6">
+  <meta itemprop="wordCount" content="194">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="URL Shortener">
@@ -151,9 +151,25 @@
 
                 <div class="post-content">
                     <p><a href="https://github.com/sumukhacharya03/URL-Shortener" target="_blank" rel="noopener noreferrer">
-  Link to GitHub
+  GitHub →
 </a></p>
-<p><strong>Content Coming Soon</strong></p>
+<h3 id="what-is-it">What is it?</h3>
+<p>A production-grade URL shortening service — the kind of system you&rsquo;d actually deploy, not just demo. Built with Flask and Redis, containerised with Docker, and orchestrated on Kubernetes with autoscaling, load balancing, and health monitoring out of the box.</p>
+<h3 id="why-i-built-it">Why I built it</h3>
+<p>URL shorteners are a classic system design problem. I wanted to go beyond the basic implementation and actually build it the way it would run in production — with horizontal scaling, ingress routing, and the ability to handle real traffic spikes without falling over.</p>
+<h3 id="how-it-works">How it works</h3>
+<ul>
+<li>Flask handles the API: shorten a URL, get back a short code, redirect on lookup.</li>
+<li>Redis acts as the fast key-value store for the short code → original URL mapping.</li>
+<li>Kubernetes manages deployment across multiple pods, with a Horizontal Pod Autoscaler (HPA) that spins up new instances under load.</li>
+<li>NGINX Ingress handles routing under a custom domain (<code>short.ly</code>).</li>
+</ul>
+<p>To verify it holds up, I wrote a stress test that fires 1000 concurrent requests — the service handled them at 88 req/sec with a 100% success rate.</p>
+<h3 id="tech-stack">Tech Stack</h3>
+<ul>
+<li><strong>Backend:</strong> Python, Flask, Redis</li>
+<li><strong>Infrastructure:</strong> Docker, Kubernetes (Minikube), NGINX Ingress, HPA</li>
+</ul>
 
                 </div>
             </article>

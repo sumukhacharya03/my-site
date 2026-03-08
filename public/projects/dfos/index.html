@@ -43,7 +43,7 @@
   <meta itemprop="description" content="Distributed File Orchestration System">
   <meta itemprop="datePublished" content="2024-11-15T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-11-15T00:00:00+00:00">
-  <meta itemprop="wordCount" content="6">
+  <meta itemprop="wordCount" content="181">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="DFOS">
@@ -151,9 +151,26 @@
 
                 <div class="post-content">
                     <p><a href="https://github.com/sumukhacharya03/DFOS" target="_blank" rel="noopener noreferrer">
-  Link to GitHub
+  GitHub →
 </a></p>
-<p><strong>Content Coming Soon</strong></p>
+<h3 id="what-is-it">What is it?</h3>
+<p>A multi-client file transfer system built from scratch in Python — no frameworks, just raw sockets. Clients authenticate, get their own isolated storage directory on the server, and can upload, download, preview, or delete files concurrently without stepping on each other.</p>
+<h3 id="why-i-built-it">Why I built it</h3>
+<p>I wanted to understand what actually happens under the hood when files move across a network — before abstractions like FTP clients or cloud SDKs hide all the interesting parts. Building it at the socket level made the concurrency and protocol design problems impossible to ignore.</p>
+<h3 id="how-it-works">How it works</h3>
+<ul>
+<li>A thread pool on the server handles multiple client connections simultaneously, so one slow transfer doesn&rsquo;t block others.</li>
+<li>Each authenticated user gets their own dedicated directory — no cross-user access.</li>
+<li>File operations: upload, download, delete, and a lightweight preview mode that fetches just the first 1KB of a file without pulling the whole thing.</li>
+<li>Performance is logged throughout: connection counts, transfer metrics, and CPU/memory stats on shutdown.</li>
+</ul>
+<h3 id="tech-stack">Tech Stack</h3>
+<ul>
+<li><strong>Language:</strong> Python 3</li>
+<li><strong>Networking:</strong> <code>socket</code> (raw TCP)</li>
+<li><strong>Concurrency:</strong> <code>threading</code>, <code>ThreadPoolExecutor</code></li>
+<li><strong>Monitoring:</strong> <code>logging</code>, <code>psutil</code></li>
+</ul>
 
                 </div>
             </article>

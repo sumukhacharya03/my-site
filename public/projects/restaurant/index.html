@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Restuarant Ordering System using Socket Programming and SSL" />
+<meta name="description" content="Restaurant Ordering System using Socket Programming and SSL" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -40,14 +40,14 @@
 
 
   <meta itemprop="name" content="Restaurant Ordering System">
-  <meta itemprop="description" content="Restuarant Ordering System using Socket Programming and SSL">
+  <meta itemprop="description" content="Restaurant Ordering System using Socket Programming and SSL">
   <meta itemprop="datePublished" content="2024-04-15T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-04-15T00:00:00+00:00">
-  <meta itemprop="wordCount" content="6">
+  <meta itemprop="wordCount" content="157">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Restaurant Ordering System">
-  <meta name="twitter:description" content="Restuarant Ordering System using Socket Programming and SSL">
+  <meta name="twitter:description" content="Restaurant Ordering System using Socket Programming and SSL">
 
 
 
@@ -151,9 +151,26 @@
 
                 <div class="post-content">
                     <p><a href="https://github.com/sumukhacharya03/Restaurant-Ordering-System" target="_blank" rel="noopener noreferrer">
-  Link to GitHub
+  GitHub →
 </a></p>
-<p><strong>Content Coming Soon</strong></p>
+<h3 id="what-is-it">What is it?</h3>
+<p>A client-server restaurant ordering system built in Python using raw sockets, secured with SSL/TLS. Clients can browse the menu, place orders, and get a GST-calculated bill — all over an encrypted connection.</p>
+<h3 id="why-i-built-it">Why I built it</h3>
+<p>This was an early deep-dive into network programming. I wanted to understand how client-server communication actually works at the socket level, and adding SSL on top made it a practical exercise in securing that channel — not just making things talk, but making them talk safely.</p>
+<h3 id="how-it-works">How it works</h3>
+<ul>
+<li>The server listens for incoming client connections over an SSL-wrapped TCP socket.</li>
+<li>Clients can view the menu, place orders with quantities, and receive an itemised bill with 5% GST applied.</li>
+<li>Python objects are serialised with <code>pickle</code> to pass structured data (menus, orders) cleanly across the connection.</li>
+<li>Clients can also submit feedback, which the server logs.</li>
+</ul>
+<h3 id="tech-stack">Tech Stack</h3>
+<ul>
+<li><strong>Language:</strong> Python 3</li>
+<li><strong>Networking:</strong> <code>socket</code>, <code>ssl</code></li>
+<li><strong>Serialisation:</strong> <code>pickle</code></li>
+<li><strong>Libraries:</strong> <code>tabulate</code></li>
+</ul>
 
                 </div>
             </article>
