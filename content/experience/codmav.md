@@ -5,6 +5,8 @@ tags: ["Data Science", "Machine Learning", "Healthcare", "Research"]
 description: "Developing a high-precision Lung Cancer Risk Prediction System using Ensemble Learning"
 ---
 
+**PES University · Jan 2026 – May 2026**
+
 ### **Overview**
 During my tenure at the **Centre of Data Modelling, Analytics and Visualization (CODMAV)**, I worked at the intersection of healthcare and Artificial Intelligence. My primary objective was to build a robust predictive system capable of identifying lung cancer risk at an early stage, which is critical for patient survival rates.
 

@@ -1,7 +1,7 @@
 ---
 title: "Silence is Loud"
-date: 2026-03-05T14:00:00+05:30
-description: "I quit chasing constant dopamine for 6 months. This is that experiment."
+date: 2026-03-10T12:00:00+05:30
+description: "I quit chasing constant dopamine till the end of 2026. This is that experiment."
 draft: false
 tags: ["music", "social-media", "detox", "dopamine", "brain-fog", "brain-rot"]
 ---
@@ -9,7 +9,7 @@ As I was lying on my bed at 1 AM, trying to fall asleep by scrolling through ree
 
 That's when it hit me — how much time I was wasting, how much potential was going down the drain.
 
-So I acted immediately. I deleted all the apps, set a WhatsApp timer to 0 minutes with three scheduled check-ins — 8 AM, 1 PM and 9 PM, five minutes each. Then I turned on grayscale mode. And just like that, my phone became nothing.
+So I acted immediately. I deleted all the apps, set a WhatsApp timer to 0 minutes with four scheduled check-ins — 8 AM, 1 PM, 5 PM and 9 PM, five minutes each. Then I turned on grayscale mode. And just like that, my phone became nothing.
 
 I felt a sudden shift. Like my brain was tearing apart.
 
@@ -25,7 +25,7 @@ This is the protocol I will be following until the end of the year.
 2. **Instagram**: I deleted the Instagram app from all my devices. It was my biggest time sink — 5–6 hours of mindless scrolling daily that left me with nothing at the end of it.
 3. **YouTube**: I deleted the YouTube app from my phone and on my laptop kept it strictly purposeful using the Unhook extension. I also disabled YouTube and Google history so I wouldn't get recommendations or Shorts suggestions — no rabbit holes.
 4. **Games**: I deleted all games from all my devices. Pure time filler with zero return. Easy cut.
-5. **WhatsApp**: Can't fully delete this one — it's how I stay connected with people. So I caged it instead. Timer set to 0 minutes, three check-ins a day at 8 AM, 1 PM and 9 PM, five minutes each.
+5. **WhatsApp**: Can't fully delete this one — it's how I stay connected with people. So I caged it instead. Timer set to 0 minutes, four check-ins a day at 8 AM, 1 PM, 5 PM and 9 PM, five minutes each.
 
 ### How to fill the Silence?
 
@@ -86,7 +86,7 @@ I anticipate the first 2–3 weeks to be difficult, filled with withdrawal sympt
 ### The End Game
 This experiment is no longer about perfection.
 
-It is about observing patterns, eliminating weaknesses in the system, and recalibrating my baseline stimulation over six months.
+It is about observing patterns, eliminating weaknesses in the system, and recalibrating my baseline stimulation till the end of the year.
 
 Until the end of the year I will be logging every day and every week based on these parameters:
 

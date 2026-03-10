@@ -29,6 +29,8 @@ Designing and executing parameter-efficient fine-tuning workflows for compact la
 - Implementing supervised fine-tuning pipeline to condition a compact model toward controlled conversational patterns.  
 - Refining dataset segmentation and evaluation metrics to maintain task reliability while adapting tone.  
 - Running iterative validation against baseline models to assess behavioral consistency and regression risks.
+- Built and containerized a full-stack inference app (Flask, FastAPI, JavaScript, Docker) serving the fine-tuned
+model via a chat UI, collecting user interaction logs as preference data for downstream DPO alignment.
 
 ### **Tech Stack**
-Python · Transformers · PEFT (LoRA/QLoRA) · Supervised Fine-Tuning · Prompt Engineering · Hyperparameter Optimization · Evaluation & Benchmarking
+Python · Transformers · PEFT (LoRA/QLoRA) · Supervised Fine-Tuning · Prompt Engineering · Hyperparameter Optimization · Evaluation & Benchmarking · Docker · Git · FastAPI · Flask · JavaScript · Gunicorn · Uvicorn

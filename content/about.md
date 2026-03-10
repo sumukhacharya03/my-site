@@ -11,11 +11,16 @@ As I grow in this field, I aim to advance from fine-tuning existing models to bu
 
 ### Education
 * **B.Tech in CSE** | PES University, Bengaluru (2022 – 2026)
+
+    CGPA: 7.51 (as of 7th sem)
 * **PUC (Class 11-12)** | BASE PU College, Bengaluru (2020 – 2022)
+
+    Class 12: 94.3%
 * **CBSE (Class 1-10)** | Sri Kumaran Children's Home, Bengaluru (2009 – 2020)
 
+    Class 10: 89.4%
+
 ### Skills
-* **Languages:** Python, C, Java
-* **AI:** LLM, PEFT, LoRA, QLoRA, Supervised Fine-Tuning, Instruction Tuned Fine-Tuning
-* **Data Science:** pandas, numpy, scikit-learn, tensorflow, pytorch, librosa
-* **Frameworks & Tools:** MySQL, Kafka, Spark, Docker, Git
+* **Languages:** Python, JavaScript, MySQL
+* **Frameworks and Tools:** FastAPI, Flask, Docker, Git, Kafka, Gunicorn, Uvicorn
+* **ML/AI:** PyTorch, LoRA, Transformers, Fine-Tuning, Streamlit, HuggingFace   
