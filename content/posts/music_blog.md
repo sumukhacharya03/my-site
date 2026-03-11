@@ -1,7 +1,7 @@
 ---
 title: "Silence is Loud"
 date: 2026-03-11T21:00:00+05:30
-description: "I quit chasing constant dopamine from March 11th till the end of 2026. This is that experiment."
+description: "I quit chasing constant dopamine from March 12th till the end of 2026. This is that experiment."
 draft: false
 tags: ["music", "social-media", "detox", "dopamine", "brain-fog", "brain-rot"]
 ---
@@ -28,7 +28,7 @@ This is the protocol I will be following until the end of the year.
 5. **WhatsApp**: Can't fully delete this one — it's how I stay connected with people. So I caged it instead. Timer set to 0 minutes, four check-ins a day at 8 AM, 1 PM, 5 PM and 9 PM, five minutes each. I set alarms for these time slots on my phone so that I only use my phone during those times.
 6. **Headphones/Earphones**: This can only be used in emergency situations, such as office meetings or when I need to listen to audio without disturbing someone.                                                                   
 
-**Note:** I also placed a calendar event on March 11, 2026, to mark the start of the dopamine detox, and another on January 2, 2027, to mark its end. I did this so that whenever I feel like reinstalling those apps or breaking the detox, I can look at the calendar and remind myself of the commitment.
+**Note:** I also placed a calendar event on March 12, 2026, to mark the start of the dopamine detox, and another on January 2, 2027, to mark its end. I did this so that whenever I feel like reinstalling those apps or breaking the detox, I can look at the calendar and remind myself of the commitment.
 
 ### How to fill the Silence?
 
@@ -116,6 +116,6 @@ See you on the other side.
 
 ### My Dopamine Detox Google Sheets Template
 
-Link - [Dopamine Detox Google Sheets Template](https://docs.google.com/spreadsheets/d/1uAU9QN8koAB5wGHeLVRMaX_EFYumdgn0cFH0OQ-9qtw/edit?usp=sharing)
+Link - [Dopamine Detox Google Sheets Template](https://docs.google.com/spreadsheets/d/1bsq9L5ibEK-Y3_4-t2jcIh4rV8xBM2TdNnIoMMlN-nM/edit?usp=sharingg)
 
 **Note:** This template reflects what works for me, which may not work the same for you, so feel free to change it in a way that suits you. Make sure to set a daily alarm or calendar event so you remember to log your day.
