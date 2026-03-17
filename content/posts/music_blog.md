@@ -1,7 +1,7 @@
 ---
 title: "Silence is Loud"
-date: 2026-03-11T21:00:00+05:30
-description: "I quit chasing constant dopamine from March 12th till the end of 2026. This is that experiment."
+date: 2026-03-18T21:00:00+05:30
+description: "I quit chasing constant dopamine from March 19th till the end of 2026. This is that experiment."
 draft: false
 tags: ["music", "social-media", "detox", "dopamine", "brain-fog", "brain-rot"]
 ---
@@ -9,7 +9,7 @@ As I was lying on my bed at 1 AM, trying to fall asleep by scrolling through ree
 
 That’s when it hit me—how much time I was wasting and how much potential was slipping away. More importantly, I realized how much strain I was putting on my ears, which scared me because if it continued, it could seriously affect my hearing.
 
-So I acted immediately. I deleted all the apps, set a WhatsApp timer to 0 minutes with four scheduled check-ins — 8 AM, 1 PM, 5 PM and 9 PM, five minutes each. Then I turned on grayscale mode. And just like that, my phone became nothing.
+So I acted immediately. I deleted all the apps, set a WhatsApp timer to 0 minutes with four scheduled check-ins — 7 AM, 1 PM, 5 PM and 9 PM, five minutes each. Then I turned on grayscale mode. And just like that, my phone became nothing.
 
 I felt a sudden shift. Like my brain was tearing apart.
 
@@ -23,12 +23,16 @@ This is the protocol I will be following until the end of the year.
 
 1. **Music**: I deleted all my music apps from all my devices. Music was my most constant escape — headphones on from the moment I woke up to the moment I slept. It had to be the first thing to go.
 2. **Instagram**: I deleted the Instagram app from all my devices. It was my biggest time sink — 5–6 hours of mindless scrolling daily that left me with nothing at the end of it.
-3. **YouTube**: I disabled the YouTube app from my phone and on my laptop kept it strictly purposeful using the Unhook extension. I also disabled YouTube and Google history so I wouldn't get recommendations or Shorts suggestions — no rabbit holes.
+3. **YouTube**: I disabled the YouTube app from my phone and on my laptop disabled it entirely. I only unblock it when I have a specific, purposeful reason to — and even then, strictly through the Unhook extension, this is because during my last detox attempt I watched a lot of youtube through incognito thinking it's fine but it breaks the whole purpose of the detox. YouTube and Google history are also disabled to prevent recommendations and Shorts from creeping in. No rabbit holes.
 4. **Games**: I deleted all games from all my devices. Pure time filler with zero return. Easy cut.
-5. **WhatsApp**: Can't fully delete this one — it's how I stay connected with people. So I caged it instead. Timer set to 0 minutes, four check-ins a day at 8 AM, 1 PM, 5 PM and 9 PM, five minutes each. I set alarms for these time slots on my phone so that I only use my phone during those times.
-6. **Headphones/Earphones**: This can only be used in emergency situations, such as office meetings or when I need to listen to audio without disturbing someone.                                                                   
+5. **WhatsApp**: Can't fully delete this one — it's how I stay connected with people. So I caged it instead. Timer set to 0 minutes, four check-ins a day at 7 AM, 1 PM, 5 PM and 9 PM, five minutes each. I set alarms for these time slots on my phone so that I only use my phone during those times.
+6. **Headphones/Earphones**: This can only be used in emergency situations, such as office meetings or when I need to listen to audio without disturbing someone.
+7. **LLM Usage**: For now, using AI tools (Claude, ChatGPT, etc.) is fine. They are a legitimate part of my work and learning. But during the last detox attempt, usage crept up to a point where it started feeling like a different kind of endless loop — always asking, never sitting with a problem. If that pattern returns, I'll introduce time blocks for LLM use, the same way I did with WhatsApp. It's not a restriction yet, just a boundary I'm aware of and will enforce if needed.
+8. **Sunday Routine**: Every Sunday, I don't look at my phone at all. No check-ins, no alarms, nothing. It is the one day of the week that is completely phone-free. A full reset.
+9. **Overall Phone Time**: The phone only comes out during the four daily WhatsApp check-in windows. First 5 minutes are for WhatsApp, then an optional additional 5 minutes for anything else that genuinely needs attention — mail, calendar, anything urgent. Once the window closes, the phone goes back down.
+10. **Grayscale Mode**: All color stripped out of the phone display. No vibrant thumbnails, no eye-catching notifications, nothing visually rewarding about picking it up. A deliberately dull screen is a surprisingly effective deterrent.                                                            
 
-**Note:** I also placed a calendar event on March 12, 2026, to mark the start of the dopamine detox, and another on January 2, 2027, to mark its end. I did this so that whenever I feel like reinstalling those apps or breaking the detox, I can look at the calendar and remind myself of the commitment.
+**Note:** I also placed a calendar event on March 19th, 2026, to mark the start of the dopamine detox, and another on January 2nd, 2027, to mark its end. I did this so that whenever I feel like reinstalling those apps or breaking the detox, I can look at the calendar and remind myself of the commitment.
 
 ### How to fill the Silence?
 
@@ -39,7 +43,7 @@ Now that I have cut so much out of my daily 24 hours, I need to fill that silenc
 3. **DSA**: At least 1.5 to 2 hours a day on LeetCode, solving problems and learning Data Structures and Algorithms along the way.
 4. **Journaling**: 5 minutes every morning and 5 minutes every night in my diary.
 5. **Maths**: Something I have wanted to do for a long time. Since AI is fundamentally built on mathematics, I want to actually understand it — Linear Algebra, Calculus, the works. At least 30 minutes to 1 hour daily.
-6. **AI Fundamentals**: Another thing I have been wanting to do for a long time. 30 minutes to 1 hour daily — understanding the foundations, not just using the tools.
+6. **AI Fundamentals**: Another thing I have been wanting to do for a long time. At least 30 minutes to 1 hour daily — understanding the foundations, not just using the tools.
 
 ### What if I Slip or Break the Routine?
 
@@ -71,7 +75,7 @@ I ran two sets of tests:
 
 The scores speak for themselves especially the wellbeing score is below 50, which the test flags as concerning.
 
-This is the before. I will repeat these exact tests at the halfway point and again on January 1st, 2027 — and report back with the full results.
+This is the before. I will repeat these exact tests at the halfway point and again on January 2nd, 2027 — and report back with the full results.
 
 You can take the same tests yourself here:
 - [Human Benchmark](https://humanbenchmark.com)
@@ -108,7 +112,7 @@ Until the end of the year I will be logging every day and every week based on th
 3. Negative thoughts? (ex. thinking about the past etc.)
 4. Weekly summary (just a brief summary of your week wrt the dopamine detox)
 
-But on January 1st 2027, I will return with full data, trends, and an honest breakdown of what changed — cognitively, physically, and emotionally.
+But on January 2nd 2027, I will return with full data, trends, and an honest breakdown of what changed — cognitively, physically, and emotionally.
 
 Whether the hypothesis holds or fails, the results will be documented.
 
