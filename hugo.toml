@@ -36,7 +36,7 @@ theme = 'hello-friend-ng'
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/sumukh-acharya-6859ab312/"
+    url  = "https://www.linkedin.com/in/sumukh-acharya/"
 
   [[params.social]]
     name = "leetcode"
