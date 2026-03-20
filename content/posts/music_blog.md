@@ -27,7 +27,7 @@ It hit me hard.
 
 That's when the bigger picture snapped into focus — how much time I was hemorrhaging, and how much potential was quietly slipping away with it. There was a physical cost too: hours of audio pumping into my ears every single day, a habit that, left unchecked, could do real damage over time.
 
-I acted immediately. I deleted every offending app. I set a WhatsApp timer to zero minutes, with four scheduled check-ins — 7 AM, 1 PM, 5 PM, and 9 PM, five minutes each. Then I switched on grayscale mode. Just like that, my phone turned into a brick.
+I acted immediately. I deleted every offending app. I set a WhatsApp timer to zero minutes, with three scheduled check-ins — 7 AM, 1 PM, and 8:15 PM, five minutes each. Then I switched on grayscale mode. Just like that, my phone turned into a brick.
 
 Something shifted almost instantly. Like my brain was being pulled apart at the seams.
 
@@ -41,7 +41,7 @@ This is the protocol I will be following until the end of the year.
 2. **Listening to Music**: Deleted all music streaming apps from all devices, completely.
 3. **Games**: Deleted from all devices, completely.
 4. **YouTube**: Disabled on my phone. On my laptop, blocked entirely — only unblocked when there is a specific, purposeful reason to, and even then, strictly through the Unhook extension. Watch history and recommendations are also disabled to prevent Shorts and autoplay from pulling me back in.
-5. **WhatsApp & Phone Time**: Timer set to zero minutes. Four scheduled check-ins a day — 7 AM, 1 PM, 5 PM, and 9 PM — with alarms set for each. The first five minutes are for WhatsApp. An optional extra five minutes follows for anything else that genuinely needs attention: mail, calendar, something urgent. When the window closes, the phone goes down. Outside of these four windows, the phone does not come out at all.
+5. **WhatsApp & Phone Time**: Timer set to zero minutes. Three scheduled check-ins a day — 7 AM, 1 PM, and 8:15 PM — with alarms set for each. The first five minutes are for WhatsApp. An optional extra five minutes follows for anything else that genuinely needs attention: mail, calendar, something urgent. When the window closes, the phone goes down. Outside of these four windows, the phone does not come out at all.
 6. **Headphones & Earphones**: Reserved for genuine emergencies only — office meetings, or situations where audio needs to be heard without disturbing others. Years of constant audio adds up, and I am not willing to pay that bill.
 7. **Blocking Loopholes**: Any app or website that could become a distraction is blocked using a website blocker or app timer — no exceptions. Social media accounts are not to be kept logged in on any device other than the phone, so there is no easy back door through a laptop browser.
 8. **Purposeful Consumption**: No mindless news or media. The only content worth consuming is what directly contributes to growth — AI research, technical blogs, long-form YouTube videos, or podcasts that teach something useful. If it isn't moving me forward, it doesn't get my attention.
@@ -51,7 +51,7 @@ This is the protocol I will be following until the end of the year.
 
 ### Mark it on your calendar
 
-I also placed a calendar event on March 19th, 2026, to mark the start of the dopamine detox, and another on January 2nd, 2027, to mark its end. I did this so that whenever I feel like reinstalling those apps or breaking the detox, I can look at the calendar and remind myself of the commitment.
+I also placed a calendar event on March 21st, 2026, to mark the start of the dopamine detox, and another on January 2nd, 2027, to mark its end. I did this so that whenever I feel like reinstalling those apps or breaking the detox, I can look at the calendar and remind myself of the commitment.
 
 ### How to Fill the Silence?
 
@@ -167,6 +167,6 @@ See you on the other side.
 
 ### My Dopamine Detox Google Sheets Template
 
-I have made my tracking template publicly available — you can access it [here](https://docs.google.com/spreadsheets/d/1bsq9L5ibEK-Y3_4-t2jcIh4rV8xBM2TdNnIoMMlN-nM/edit?gid=0#gid=0)
+I have made my tracking template publicly available — you can access it [here](https://docs.google.com/spreadsheets/d/1drgkBJkLhXtrd3OeAdMAYB3pUMm5T73mgUzUFKVMD3g/edit?gid=0#gid=0)
 
 **Note:** This template reflects what works for me, which may not work the same for you — feel free to adapt it however suits you. And set a daily alarm or calendar event so you actually remember to log.
