@@ -1,23 +1,37 @@
 ---
 title: "Silence is Loud"
-date: 2026-03-20T16:00:00+05:30
-description: "I quit chasing constant dopamine from March 21st till the end of 2026. This is that experiment."
+date: 2026-04-03T19:00:00+05:30
+description: "I quit chasing constant dopamine till the end of 2026. This is that experiment."
 draft: false
 tags: ["music", "social-media", "detox", "dopamine", "brain-fog", "brain-rot"]
 ---
-The night before, I had everything I needed — time, a quiet room, and a clear task. As a Teaching Assistant for Linear Algebra, I was supposed to prepare a set of lab questions before heading to university the next morning. Simple enough. Except it wasn't.
+This morning, I woke up and I was already wrong. Irritated before anything had happened. 
+Drowsy, angry, quietly hostile toward people who hadn't done anything to me. And I knew 
+exactly why — because I'd spent the night before, and the morning itself, drowning in reels.
 
-I sat down, opened my laptop, and somehow ended up deep in an F1 game, headphones on, fully committed to a virtual race I absolutely did not need to win. Between laps, I'd drift to Instagram — one reel, then another, then another. The lab questions sat in a tab I kept minimizing. I told myself I'd get to it. I didn't. Sleep arrived before the preparation did, and I let it.
+Not just watching them. *Hunting* through them. Scrolling past reel after reel looking for 
+the one that would finally hit right — the perfect song that makes you feel like the main 
+character, the sped-up cricket montage that floods your brain with enough dopamine that 
+suddenly you're playing for India in your own head, the cringe edit that makes everything 
+feel cinematic and fast and important. I kept looking. It kept not being enough.
 
-I woke up the next morning groggy, unrested, and already behind. Late nights have a way of collecting their debt in the early hours. But I got up anyway, got dressed, and headed out — telling myself I'd prepare on the metro. *I'll read on the way. It'll be fine.*
+And somewhere in the middle of that scroll, a thought cut through the noise: *This is not me.*
 
-And I did try. Without the option to scroll or play, my hands were idle, so I did the next best thing: I put on music, let it fill the silence, and skimmed through the material on my phone. A compromise. A dopamine substitute. It was better than nothing, but not by much.
+Or maybe more honestly — *is this me now?*
 
-Then came the class.
+That question didn't leave. It settled somewhere uncomfortable, and I started pulling on the 
+thread. I thought about how long I'd been like this. How much potential I could feel slipping, 
+not dramatically, but quietly, in all the small surrenders. The blog I kept saying I'd write 
+and publish. The research papers sitting in tabs I never open. The LeetCode questions I planned 
+with full sincerity and then forgot by evening. My diet. My health. My injured right leg that 
+I keep promising to take seriously.
 
-There weren't many students — a long weekend had kept most of them away, which, honestly, felt like mercy. But even in that small room, with a forgiving audience, I fumbled. My explanations were unclear, my thoughts scattered. I could feel the gap between what I knew and what I was able to articulate in that moment. It was uncomfortable in a way that went beyond embarrassment.
+None of it catastrophic on its own. All of it, together, starting to look like a pattern.
 
-Afterwards, I sat with a quiet, creeping fear — not about the class, but about me. About the pattern. The procrastination, the distraction, the need for constant stimulation, the inability to simply sit and do the thing I needed to do.
+The reels didn't cause any of this. But they were the mirror this morning — and I didn't like 
+what I saw.
+
+So I'm writing this instead.
 
 *What is happening to me?*
 
@@ -27,7 +41,7 @@ It hit me hard.
 
 That's when the bigger picture snapped into focus — how much time I was hemorrhaging, and how much potential was quietly slipping away with it. There was a physical cost too: hours of audio pumping into my ears every single day, a habit that, left unchecked, could do real damage over time.
 
-I acted immediately. I deleted every offending app. I set a WhatsApp timer to zero minutes, with three scheduled check-ins — 7 AM, 1 PM, and 8:15 PM, five minutes each. Then I switched on grayscale mode. Just like that, my phone turned into a brick.
+I acted immediately. I deleted every offending app. I set a WhatsApp timer to zero minutes, with two scheduled check-ins — 8 AM, and 9 PM, five and fifteen minutes each. Then I switched on grayscale mode. Just like that, my phone turned into a brick.
 
 Something shifted almost instantly. Like my brain was being pulled apart at the seams.
 
@@ -41,29 +55,23 @@ This is the protocol I will be following until the end of the year.
 2. **Listening to Music**: Deleted all music streaming apps from all devices, completely.
 3. **Games**: Deleted from all devices, completely.
 4. **YouTube**: Disabled on my phone. On my laptop, blocked entirely — only unblocked when there is a specific, purposeful reason to, and even then, strictly through the Unhook extension. Watch history and recommendations are also disabled to prevent Shorts and autoplay from pulling me back in.
-5. **WhatsApp & Phone Time**: Timer set to zero minutes. Three scheduled check-ins a day — 7 AM, 1 PM, and 8:15 PM — with alarms set for each. The first five minutes are for WhatsApp. An optional extra five minutes follows for anything else that genuinely needs attention: mail, calendar, something urgent. When the window closes, the phone goes down. Outside of these four windows, the phone does not come out at all.
+5. **WhatsApp & Phone Time**: Timer set to zero minutes. Two scheduled check-ins a day — 8 AM, and 9 PM — with alarms set for each. The first five/fifteen minutes are for WhatsApp. An optional extra five minutes follows for anything else that genuinely needs attention: mail, calendar, something urgent. When the window closes, the phone goes down. Outside of these two time windows, the phone does not come out at all.
 6. **Headphones & Earphones**: Reserved for genuine emergencies only — office meetings, or situations where audio needs to be heard without disturbing others. Years of constant audio adds up, and I am not willing to pay that bill.
 7. **Blocking Loopholes**: Any app or website that could become a distraction is blocked using a website blocker or app timer — no exceptions. Social media accounts are not to be kept logged in on any device other than the phone, so there is no easy back door through a laptop browser.
-8. **Purposeful Consumption**: No mindless news or media. The only content worth consuming is what directly contributes to growth — AI research, technical blogs, long-form YouTube videos, or podcasts that teach something useful. If it isn't moving me forward, it doesn't get my attention.
+8. **Purposeful Consumption**: No mindless news or media. The only content worth consuming is what directly contributes to growth — AI research, technical blogs, long-form YouTube videos, or podcasts that teach something useful. If it isn't moving me forward, it doesn't get my attention. Above all else — read, read, read. Books, articles, papers — reading always comes first before any other form of consumption. That said, if it's a Saturday or Sunday and the week has been overwhelming, watching something funny to decompress is not just allowed — it's encouraged.
 9. **TV Time**: Strictly weekends only — Sunday by default, Saturday only if absolutely necessary. Not a daily habit, not a nightly wind-down. A deliberate choice, not a reflex.
-10. **Sleep**: In bed by 11 PM, up by 6 AM. No exceptions.
+10. **Sleep**: In bed by 10:30 PM, up by 5:30 AM. No exceptions.
 11. **Emergencies & Social Pressure**: The check-in schedule holds except in two cases — someone is in physical danger, or something carries a financial or legal consequence if not addressed within hours. Everything else waits for the next window. The people closest to me know my schedule, so the pressure largely does not arise.                                                    
-
-### Mark it on your calendar
-
-I also placed a calendar event on March 21st, 2026, to mark the start of the dopamine detox, and another on January 2nd, 2027, to mark its end. I did this so that whenever I feel like reinstalling those apps or breaking the detox, I can look at the calendar and remind myself of the commitment.
 
 ### How to Fill the Silence?
 
 Now that I have cut so much out of my daily 24 hours, I need to fill that silence — otherwise I'll just slip back into the old routine. Here's how I plan to do it. These are targets, not rigid daily requirements — missing a day does not mean the experiment is over.
 
-1. **Silence during exercise and travel**: Morning commute is for reading. Evening commute is just me and my thoughts — no audio, no screen, nothing. Exercise is the same — no distractions, just presence.
+1. **Silence during exercise and travel**: Morning commute is for reading. Evening commute is just me and my thoughts — no audio, no screen, nothing. Exercise is the same — no distractions, just presence. If a friend is around though, ditch all of this — that time is for them.
 2. **Reading**: At least 1 hour a day — books, articles, blogs, anything worth reading.
 3. **Physical Movement**: At least 30 minutes of movement every day, non-negotiable.
 4. **DSA**: At least 1.5 hours a day on LeetCode, solving problems and learning Data Structures and Algorithms along the way.
 5. **Journaling**: 5 minutes every morning and 5 minutes every night in my diary.
-6. **Maths**: At least 30 minutes daily — Linear Algebra, Calculus, the works. Since AI is fundamentally built on mathematics, I want to actually understand it, not just use it.
-7. **AI Fundamentals**: At least 30 minutes daily — understanding the foundations, not just using the tools.
 
 ### What if I Slip or Break the Routine?
 
@@ -113,9 +121,12 @@ I ran two sets of tests:
 
 ![Baseline Cognitive Performance](/images/graph1.png)
 
-The numbers are on the graph — and they are not flattering. A well-being score of 20 out of 100. Anxiety at 20 out of 21. Depression at 25 out of 27. Insomnia above the clinical cutoff. These are not numbers I expected to see staring back at me, but they are honest, and that is the point.
+The numbers are on the graph — and they are not flattering. A well-being score of 24 out of 100. Anxiety at 19 out of 21. Depression at 23 out of 27. Insomnia above the clinical cutoff. These are not numbers I expected to see staring back at me, but they are honest, and that is the point.
 
 This is the before. I will repeat these tests every week to track how things shift over time — and on January 2nd, 2027, I will bring it all together with the full results and a combined graph showing everything from Day 0 to the end.
+
+Taking these tests was revealing in a way I didn't expect. Somewhere halfway through, I noticed something unsettling — I was restless. Legs shaking, frustration building, a quiet agitation that had no real source. My brain was actively resisting the act of sitting still and focusing. Between levels, I'd feel this impatient pull, like the pause itself was unbearable. The number memory test hit hardest — I'd hold the number, feel confident, and then watch it dissolve into fog before I could get it down. Not because it was too long. Just because my brain had already moved on before I gave it permission to.
+That scared me more than the scores did.
 
 You can take the same tests yourself here:
 - [Human Benchmark](https://humanbenchmark.com)
@@ -167,6 +178,6 @@ See you on the other side.
 
 ### My Dopamine Detox Google Sheets Template
 
-I have made my tracking template publicly available — you can access it [here](https://docs.google.com/spreadsheets/d/1drgkBJkLhXtrd3OeAdMAYB3pUMm5T73mgUzUFKVMD3g/edit?gid=0#gid=0)
+I have made my tracking template publicly available — you can access it [here](https://docs.google.com/spreadsheets/d/1fTf2SvT1GufNISJhkL8pU8-tTdrklsltifceoDFlOYY/edit?gid=0#gid=0)
 
 **Note:** This template reflects what works for me, which may not work the same for you — feel free to adapt it however suits you. And set a daily alarm or calendar event so you actually remember to log.
