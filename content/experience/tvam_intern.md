@@ -1,36 +1,32 @@
 ---
-title: "AI Intern @ Tvam Technologies"
+title: "Machine Learning Intern @ tvam Technologies"
 date: 2025-09-01
-description: "Applied LLM Fine-Tuning and Evaluation"
+description: ""
 ---
 
-## AI Intern | Tvam Technologies  
-*September 2025 – Present*
-
-Designing and executing parameter-efficient fine-tuning workflows for compact language models, with emphasis on reliability, structured outputs, and controlled evaluation. Responsible for end-to-end experimentation — from dataset construction and instruction design to optimization, benchmarking, and validation under real-world constraints.
-
-**Update:** Delivered two full LLM adaptation cycles; currently iterating on a third with expanded benchmarking and stylistic conditioning controls.
+### Machine Learning Intern | tvam Technologies  
+*September 2025 – June 2026*
 
 ### **Projects**
 
-**Project 1 — Structured Output Adaptation for Compact LLM**  
-- Fine-tuned a small-scale transformer model using PEFT (LoRA/QLoRA) to improve structured response consistency.  
-- Built and curated task-specific datasets, including prompt templates and edge-case scenarios.  
-- Performed systematic hyperparameter exploration (rank, learning rate, dropout, batch sizing).  
-- Designed validation harness to test robustness, edge cases, and output stability.
+**Project 1 — Agentic Tool-Calling SLM** | LoRA/QLoRA, Instruction-Tuned Fine-Tuning 
+- Fine-tuned SLM for agentic tool-calling through 5 iterative cycles of instruction tuning, edge-case diagnosis,
+and synthetic data regeneration using larger LLMs, improving correct tool-call accuracy by 85% over the base
+model.
 
-**Project 2 — Cross-Model Benchmarking & Evaluation Study**  
-- Conducted comparative evaluation across multiple foundation and instruction-tuned models.  
-- Developed standardized test scripts and controlled prompt sets for consistent benchmarking.  
-- Measured qualitative output alignment and latency trade-offs across architectures.  
-- Documented performance trends to inform model selection and optimization strategy.
+**Project 2 — Conversational Fine-Tuning for Human-Like Interaction** | LoRA/QLoRA, SFT  
+- Self-curated a 1.5M-token conversational dataset from scratch by sourcing and manually curating interview
+transcripts from a couple of public figures into a JSONL corpus, then supervised fine-tuned the tool-calling
+SLM for conversational quality and emotional nuance, narrowing the performance gap to GPT-5.2 by 75% on
+human-evaluated conversational scenarios.
 
-**Project 3 — Stylistic Conditioning via Iterative Fine-Tuning (Ongoing)**  
-- Implementing supervised fine-tuning pipeline to condition a compact model toward controlled conversational patterns.  
-- Refining dataset segmentation and evaluation metrics to maintain task reliability while adapting tone.  
-- Running iterative validation against baseline models to assess behavioral consistency and regression risks.
-- Built and containerized a full-stack inference app (Flask, FastAPI, JavaScript, Docker) serving the fine-tuned
-model via a chat UI, collecting user interaction logs as preference data for downstream DPO alignment.
+**Project 3 — DPO Alignment for Emotional Maturity** | DPO, SFT  
+- Fine-Tuning the latest fine-tuned SLM on 14M DPO preference pairs curated from LLM-generated conversation
+logs, using a hybrid DPO + SFT objective to jointly optimize preference alignment and next-token prediction,
+with edge-case testing and loss optimization currently in progress.
 
-### **Tech Stack**
-Python · Transformers · PEFT (LoRA/QLoRA) · Supervised Fine-Tuning · Prompt Engineering · Hyperparameter Optimization · Evaluation & Benchmarking · Docker · Git · FastAPI · Flask · JavaScript · Gunicorn · Uvicorn
+**Project 4 — Audio Codec & Text-to-Audio-Token Modeling** | PyTorch, torchaudio, GAN, BiMamba2  
+- Training a GAN-based neural audio codec for high-fidelity audio reconstruction, currently at 3,750 epochs with
+near-lossless reconstruction quality on most inputs and a handful of edge cases still being refined, alongside a
+separate BiMamba2-based neural network to convert text into audio tokens – the two core components for an
+eventual speech-to-speech (STS) system.

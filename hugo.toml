@@ -15,7 +15,7 @@ theme = 'hello-friend-ng'
   subtitle = ""
   
   # Set the homepage to look like a profile
-  homeSubtitle = "AI Intern @ tvam Technologies"
+  homeSubtitle = "Machine Learning Engineer @ tvam Technologies"
 
   # Footer
   footerCopyright = 'Sumukh Acharya | sumukh.acharya@gmail.com'
