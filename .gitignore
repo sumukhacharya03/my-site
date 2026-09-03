@@ -1,1 +1,3 @@
 public/
+# Hugo build cache — regenerated on every build (Vercel included)
+resources/_gen/

@@ -1,0 +1,38 @@
+{{- $logo := .Site.Params.logo -}}
+<header class="site-header">
+    <div class="shell site-header__inner">
+        <a class="logo" href="{{ default "/" $logo.logoHomeLink | relURL }}">
+            <span>{{ default .Site.Title $logo.logoText }}</span>
+            {{- if ne $logo.cursor false }}<span class="logo__cursor" aria-hidden="true">_</span>{{ end -}}
+        </a>
+
+        <div class="site-header__right">
+            {{- if .Site.Menus.main }}
+            <button type="button"
+                    class="icon-btn nav-toggle"
+                    data-nav-toggle
+                    aria-controls="site-nav"
+                    aria-expanded="false"
+                    aria-label="Open navigation menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <nav class="site-nav" id="site-nav" aria-label="Main">
+                <ul>
+                    {{- range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL | relURL }}"
+                           {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}aria-current="page"{{ end }}>{{ .Name }}</a>
+                    </li>
+                    {{- end }}
+                </ul>
+            </nav>
+            {{- end }}
+
+        </div>
+    </div>
+</header>

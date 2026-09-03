@@ -1,0 +1,72 @@
+{{- /*
+  Responsive, pre-sharpened image.
+
+  Downscaling in the browser is what makes big photos look soft, so we resize
+  offline with Lanczos and re-apply a light unsharp mask, then hand the browser
+  a 1x/2x srcset so retina screens get real pixels instead of an upscale.
+
+  Params:
+    path    (required) asset path, e.g. "me1.jpg" or "images/photo1.jpg"
+    alt     (required) alt text
+    w       (required) intrinsic width in CSS px at 1x
+    h       (optional) height in CSS px — when set, the image is cropped to
+                       exactly w x h; when omitted, aspect ratio is preserved
+    class   (optional) class attribute
+    loading (optional) "lazy" (default) or "eager"
+
+  NOTE: use if/else here, never `cond` — `cond` is a function call, so it
+  evaluates both branches and would run Fill on aspect-preserving images.
+*/ -}}
+
+{{- $path    := .path -}}
+{{- $alt     := .alt | default "" -}}
+{{- $w       := int .w -}}
+{{- $h       := int (.h | default 0) -}}
+{{- $class   := .class | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $decorative := .decorative | default false -}}
+
+{{- $sharpen := images.UnsharpMask 0.7 0.7 0.02 -}}
+
+{{- with resources.Get $path -}}
+  {{- $src := . -}}
+  {{- $crop := gt $h 0 -}}
+
+  {{- /* 1x */ -}}
+  {{- $x1 := $src -}}
+  {{- if $crop -}}
+    {{- $x1 = $src.Fill (printf "%dx%d Smart" $w $h) -}}
+  {{- else -}}
+    {{- $x1 = $src.Resize (printf "%dx" $w) -}}
+  {{- end -}}
+  {{- $x1 = $x1.Filter $sharpen -}}
+
+  {{- /* 2x, but only when the source actually has the pixels for it */ -}}
+  {{- $w2 := mul $w 2 -}}
+  {{- $h2 := mul $h 2 -}}
+  {{- $retina := ge $src.Width $w2 -}}
+  {{- if and $retina $crop -}}
+    {{- $retina = ge $src.Height $h2 -}}
+  {{- end -}}
+
+  {{- $x2 := $x1 -}}
+  {{- if $retina -}}
+    {{- if $crop -}}
+      {{- $x2 = $src.Fill (printf "%dx%d Smart" $w2 $h2) -}}
+    {{- else -}}
+      {{- $x2 = $src.Resize (printf "%dx" $w2) -}}
+    {{- end -}}
+    {{- $x2 = $x2.Filter $sharpen -}}
+  {{- end -}}
+
+  <img src="{{ $x1.RelPermalink }}"
+       {{ if $retina }}srcset="{{ $x1.RelPermalink }} 1x, {{ $x2.RelPermalink }} 2x"{{ end }}
+       width="{{ $x1.Width }}" height="{{ $x1.Height }}"
+       alt="{{ $alt }}"
+       {{ with $class }}class="{{ . }}"{{ end }}
+       {{ if $decorative }}aria-hidden="true"{{ end }}
+       loading="{{ $loading }}"
+       decoding="async">
+{{- else -}}
+  {{- warnf "partials/img.html: no image found at asset path %q" $path -}}
+{{- end -}}

@@ -1,0 +1,10 @@
+{{- with resources.Get "js/site.js" }}
+  {{- $js := . | minify | fingerprint "sha512" }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end }}
+
+{{- range $val := .Site.Params.customJS }}
+  {{- if gt (len $val) 0 }}
+  <script src="{{ $val }}" defer></script>
+  {{- end }}
+{{- end }}

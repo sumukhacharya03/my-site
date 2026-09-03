@@ -1,0 +1,203 @@
+{{ define "main" }}
+{{- $first := index (split .Site.Title " ") 0 -}}
+{{- $prompt := printf "%s@tensor" (lower $first) -}}
+
+{{- /* Sections that carry dated entries, newest first. */ -}}
+{{- $feed := where .Site.RegularPages "Section" "in" (slice "experience" "projects" "posts") -}}
+
+{{- /* menu identifier -> content path, so cards can reuse existing front matter */ -}}
+{{- $paths := dict "about" "/about" "experience" "/experience" "projects" "/projects" "blogs" "/posts" "photography" "/photography" -}}
+
+{{- $kinds := dict "experience" "Experience" "projects" "Project" "posts" "Blog" -}}
+
+<!-- ============================= Hero ============================= -->
+<section class="hero">
+    {{- /* Decorative backdrop: the photo fills the band at low opacity so the
+           text above it stays legible. alt="" + aria-hidden because it carries
+           no information a screen reader needs. */ -}}
+    {{ partial "img.html" (dict
+        "path"    "me1.jpg"
+        "alt"     ""
+        "w"       1400
+        "h"       560
+        "class"      "hero__bg"
+        "decorative" true
+        "loading"    "eager") }}
+
+    <div class="shell hero__inner">
+        <h1 class="hero__title">{{ .Site.Title }}</h1>
+
+        {{- with .Site.Params.homeSubtitle }}
+        <p class="hero__subtitle">{{ . }}</p>
+        {{- end }}
+
+        {{- with .Site.Params.social }}
+        <div class="social-links">
+            {{ partial "social-icons.html" . }}
+        </div>
+        {{- end }}
+
+        <nav class="hero__nav" aria-label="Shortcuts">
+            <a href="{{ "/about" | relURL }}">about&nbsp;&rarr;</a>
+            <span class="sep" aria-hidden="true">&middot;</span>
+            <a href="#proof-of-work">proof-of-work&nbsp;&darr;</a>
+        </nav>
+    </div>
+</section>
+
+<!-- =========================== Terminal =========================== -->
+<section class="terminal-section" aria-labelledby="terminal-heading">
+    <div class="shell">
+        <h2 id="terminal-heading" class="visually-hidden">Interactive terminal</h2>
+
+        <div class="terminal" id="terminal">
+            <div class="terminal__bar" aria-hidden="true">
+                <div class="terminal__dots">
+                    <span class="terminal__dot red"></span>
+                    <span class="terminal__dot yellow"></span>
+                    <span class="terminal__dot green"></span>
+                </div>
+                <span class="terminal__name">{{ $prompt }} — bash</span>
+            </div>
+
+            <div class="terminal__body">
+                <div id="terminal-history" aria-live="polite">
+                    <div class="terminal__line">
+                        <span class="terminal__prompt"><span class="user">{{ $prompt }}</span>:<span class="dir">~</span>$</span>
+                        <span>whoami</span>
+                    </div>
+                    <p class="terminal__out">{{ .Site.Title }}</p>
+                    {{- with .Site.Params.homeSubtitle }}
+                    <p class="terminal__out">{{ . }}</p>
+                    {{- end }}
+                </div>
+
+                <div class="terminal__inputline">
+                    <span class="terminal__prompt" aria-hidden="true"><span class="user">{{ $prompt }}</span>:<span class="dir">~</span>$</span>
+                    <label class="visually-hidden" for="terminal-input">Type a terminal command</label>
+                    <input class="terminal__input" id="terminal-input" type="text"
+                           autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                </div>
+            </div>
+        </div>
+
+        <p class="terminal__hint">
+            Type <code>help</code> to see everything it can do.
+        </p>
+    </div>
+
+    {{- /* Each section also carries its pages, so `ls <section>` and
+           `cd <section>/<page>` work against the real site. */ -}}
+    {{- $sections := slice -}}
+    {{- range .Site.Menus.main -}}
+        {{- $items := slice -}}
+        {{- with index $paths .Identifier -}}
+            {{- with site.GetPage . -}}
+                {{- range .RegularPages -}}
+                    {{- $items = $items | append (dict "name" .Title "slug" (lower (path.Base .RelPermalink)) "url" .RelPermalink) -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+        {{- $sections = $sections | append (dict "name" .Name "slug" (lower (path.Base .URL)) "url" (.URL | relURL) "items" $items) -}}
+    {{- end -}}
+    {{- $whoami := slice .Site.Title -}}
+    {{- with .Site.Params.homeSubtitle }}{{ $whoami = $whoami | append . }}{{ end -}}
+    <script>window.__TERMINAL__ = {{ dict "prompt" $prompt "sections" $sections "whoami" $whoami }};</script>
+</section>
+
+<!-- =========================== Explore ============================ -->
+<section class="section" aria-labelledby="explore-heading">
+    <div class="shell">
+        <div class="section__head">
+            <h2 class="section__title" id="explore-heading">Explore</h2>
+            <p class="section__lead">Five places to go from here.</p>
+        </div>
+
+        <ul class="cards">
+            {{- range .Site.Menus.main }}
+            {{- $p := "" }}{{ with index $paths .Identifier }}{{ $p = site.GetPage . }}{{ end }}
+            <li>
+                {{- /* Uniform cards: title + count only. Descriptions used to
+                       come from each section's front matter, but only some
+                       sections have one, which left the row lopsided. */ -}}
+                <a class="card" href="{{ .URL | relURL }}">
+                    <span class="card__title">{{ .Name }}</span>
+                    <span class="card__foot">
+                        <span class="card__count">
+                            {{- with $p }}{{ $n := len .RegularPages }}{{ if gt $n 0 }}{{ $n }} {{ cond (eq $n 1) "entry" "entries" }}{{ end }}{{ end -}}
+                        </span>
+                        <svg class="card__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+</section>
+
+<!-- ========================= Proof of work ======================== -->
+<section class="section" id="proof-of-work" aria-labelledby="pow-heading">
+    <div class="shell">
+        <div class="section__head">
+            <h2 class="section__title" id="pow-heading">Proof of work</h2>
+            <p class="section__lead">
+                Experience, projects and writing, in <em>reverse chronological order</em>.
+            </p>
+        </div>
+
+        {{- if $feed }}
+        <div class="timeline timeline--kinds" data-rail>
+            <span class="rail__lit" aria-hidden="true"></span>
+            {{- range $feed.GroupByDate "2006" }}
+            <div class="timeline__group">
+                <h3 class="timeline__year">{{ .Key }}</h3>
+                <ul class="timeline__list">
+                    {{- range .Pages }}
+                    <li>
+                        <a class="entry" href="{{ .RelPermalink }}">
+                            <span class="entry__top">
+                                <span class="entry__title">
+                                    <span class="entry__kind">{{ index $kinds .Section | default (humanize .Section) }}</span><span class="entry__name">{{ .Title }}</span>
+                                </span>
+                                <span class="entry__meta">
+                                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateform) }}</time>
+                                </span>
+                            </span>
+                            {{- with .Params.description }}
+                            <span class="entry__desc">{{ . }}</span>
+                            {{- end }}
+                        </a>
+                    </li>
+                    {{- end }}
+                </ul>
+            </div>
+            {{- end }}
+        </div>
+        {{- else }}
+        <p class="empty-state">Nothing here yet.</p>
+        {{- end }}
+    </div>
+</section>
+
+<!-- ============================= CTA ============================== -->
+<section class="section" aria-labelledby="cta-heading">
+    <div class="shell">
+        <div class="cta">
+            <h2 class="cta__title" id="cta-heading">Want the short version?</h2>
+            <p class="cta__lead">The whole thing on one page.</p>
+            <a class="button" href="{{ "resume.pdf" | relURL }}" target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+                Résumé <span class="visually-hidden">(PDF, opens in a new tab)</span>
+            </a>
+        </div>
+    </div>
+</section>
+{{ end }}

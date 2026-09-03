@@ -1,19 +1,13 @@
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; justify-items: center; margin-top: 30px;">
-
-    <div style="width: 100%; max-width: 350px;">
-        <img src="/images/photo1.jpg" alt="Photo 1" style="width: 100%; height: 300px; object-fit: cover; border-radius: 15px; border: 3px solid #444; box-shadow: 0 8px 16px rgba(0,0,0,0.3);">
-    </div>
-
-    <div style="width: 100%; max-width: 350px;">
-        <img src="/images/photo2.jpg" alt="Photo 2" style="width: 100%; height: 300px; object-fit: cover; border-radius: 15px; border: 3px solid #444; box-shadow: 0 8px 16px rgba(0,0,0,0.3);">
-    </div>
-
-    <div style="width: 100%; max-width: 350px;">
-        <img src="/images/photo3.jpg" alt="Photo 3" style="width: 100%; height: 300px; object-fit: cover; border-radius: 15px; border: 3px solid #444; box-shadow: 0 8px 16px rgba(0,0,0,0.3);">
-    </div>
-
-    <div style="width: 100%; max-width: 350px;">
-        <img src="/images/photo4.jpg" alt="Photo 4" style="width: 100%; height: 300px; object-fit: cover; border-radius: 15px; border: 3px solid #444; box-shadow: 0 8px 16px rgba(0,0,0,0.3);">
-    </div>
-
+{{- /* Same four photos as before. Each is shown at its own aspect ratio
+       rather than cropped into a fixed letterbox, and resized by Hugo so it
+       stays sharp. */ -}}
+<div class="gallery">
+    {{- range (seq 4) }}
+    <figure class="gallery__item">
+        {{ partial "img.html" (dict
+            "path"  (printf "images/photo%d.jpg" .)
+            "alt"   (printf "Photo %d" .)
+            "w"     640) }}
+    </figure>
+    {{- end }}
 </div>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default .Site.Language.Lang }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="page-wrapper">
+        <div class="pattern-overlay" aria-hidden="true"></div>
+
+        <div class="content-root">
+            {{ partial "header.html" . }}
+
+            <main id="main">
+                {{ block "main" . }}{{ end }}
+            </main>
+
+            {{ partial "footer.html" . }}
+        </div>
+    </div>
+
+    {{ partial "javascript.html" . }}
+</body>
+</html>

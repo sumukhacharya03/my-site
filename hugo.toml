@@ -4,8 +4,6 @@ title = 'Sumukh Acharya'
 theme = 'hello-friend-ng'
 
 [params]
-  defaultTheme = "dark"
-  enableThemeToggle = true
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
@@ -21,7 +19,7 @@ theme = 'hello-friend-ng'
   footerCopyright = 'Sumukh Acharya | sumukh.acharya@gmail.com'
 
   [params.footer]
-    copyright = '© Sumukh Acharya | sumukh.acharya@gmail.com'
+    copyright = 'Sumukh Acharya | sumukh.acharya@gmail.com'
 
   # --- LOGO SETTINGS (Top Left) ---
   [params.logo]
@@ -87,3 +85,20 @@ theme = 'hello-friend-ng'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+# --- IMAGE PROCESSING ---
+# Lanczos resampling + high quality, so downscaled photos stay sharp instead
+# of relying on the browser's cheap in-page scaling.
+[imaging]
+  quality        = 90
+  resampleFilter = "Lanczos"
+  anchor         = "Smart"
+
+# Mount static/ into assets/ as well, so images that live in static/ can go
+# through Hugo's image pipeline without being moved or duplicated.
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "assets"

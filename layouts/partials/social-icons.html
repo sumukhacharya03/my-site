@@ -1,3 +1,6 @@
-{{ range . -}}
-    &nbsp; <a href="{{ .url }}" {{ if not .nonewpage }} target="_blank" {{ end }} rel="me noopener {{ .rel }}" title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a> &nbsp;
-{{- end -}}
+{{- range . }}
+<a href="{{ .url }}"
+   {{ if not .nonewpage }}target="_blank" rel="me noopener noreferrer{{ with .rel }} {{ . }}{{ end }}"{{ else }}rel="me{{ with .rel }} {{ . }}{{ end }}"{{ end }}
+   title="{{ .name | humanize }}"
+   aria-label="{{ .name | humanize }}{{ if not .nonewpage }} (opens in a new tab){{ end }}">{{ partial "svg.html" . }}</a>
+{{- end }}

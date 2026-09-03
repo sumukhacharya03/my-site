@@ -1,0 +1,68 @@
+{{- $section := .CurrentSection -}}
+<div class="shell">
+    <article>
+        <header class="page-head">
+            {{- if and .Section $section $section.Title }}
+            <p class="breadcrumb">
+                <a href="{{ "/" | relURL }}">home</a>
+                <span aria-hidden="true"> / </span>
+                <a href="{{ $section.RelPermalink }}">{{ lower $section.Title }}</a>
+            </p>
+            {{- end }}
+
+            <h1 class="page-head__title">{{ .Title | markdownify }}</h1>
+
+            {{- with .Params.description }}
+            <p class="page-head__lead">{{ . }}</p>
+            {{- end }}
+
+            {{- /* About Me is a living page, so it is stamped with the build
+                   time in IST rather than a fixed front-matter date. Built from
+                   now.UTC so it is correct wherever the build runs — Vercel's
+                   builders are on UTC, this machine is already on +05:30. */ -}}
+            {{- $isAbout := and .File (eq .File.TranslationBaseName "about") -}}
+            {{- if $isAbout }}
+            {{- $ist := now.UTC.Add (time.ParseDuration "5h30m") }}
+            <p class="post-meta">
+                {{- /* The offset must be appended literally: inside a Go layout
+                       string "05" and "30" are reference-time tokens, not digits,
+                       so "+05:30" would be rewritten with real time values. */ -}}
+                <time datetime="{{ $ist.Format "2006-01-02T15:04:05" }}+05:30">{{ $ist.Format "Jan 2, 2006, 3:04 PM" }} IST</time>
+                {{- with .ReadingTime }} &middot; {{ . }} min read{{ end }}
+            </p>
+            {{- else if not .Date.IsZero }}
+            <p class="post-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (default "Jan 2, 2006" .Site.Params.dateform) }}</time>
+                {{- with .ReadingTime }} &middot; {{ . }} min read{{ end }}
+            </p>
+            {{- end }}
+        </header>
+
+        {{- with .Params.cover }}
+        <figure>
+            <img src="{{ . | absURL }}" alt="{{ $.Title }}">
+        </figure>
+        {{- end }}
+
+        <div class="prose">
+            {{ .Content }}
+        </div>
+
+        {{- with .Params.tags }}
+        <ul class="tag-list">
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{- end }}
+    </article>
+
+    {{- if or .PrevInSection .NextInSection }}
+    <nav class="pager" aria-label="More in this section">
+        {{- with .PrevInSection }}
+        <a class="prev" href="{{ .RelPermalink }}">&larr; {{ .Title }}</a>
+        {{- end }}
+        {{- with .NextInSection }}
+        <a class="next" href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>
+        {{- end }}
+    </nav>
+    {{- end }}
+</div>

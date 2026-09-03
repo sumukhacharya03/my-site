@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="shell">
+    <header class="page-head">
+        <h1 class="page-head__title">404</h1>
+        <p class="page-head__lead">That page doesn&rsquo;t exist. Here&rsquo;s everywhere that does.</p>
+    </header>
+
+    {{- $paths := dict "about" "/about" "experience" "/experience" "projects" "/projects" "blogs" "/posts" "photography" "/photography" -}}
+    <ul class="cards">
+        {{- range .Site.Menus.main }}
+        {{- $p := "" }}{{ with index $paths .Identifier }}{{ $p = site.GetPage . }}{{ end }}
+        <li>
+            <a class="card" href="{{ .URL | relURL }}">
+                <span class="card__title">{{ .Name }}</span>
+                {{- with $p }}{{ with .Params.description }}
+                <p class="card__desc">{{ . }}</p>
+                {{- end }}{{ end }}
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+</div>
+{{ end }}

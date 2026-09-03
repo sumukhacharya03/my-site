@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{- $pages := .RegularPages -}}
+<div class="shell">
+    <header class="page-head">
+        <h1 class="page-head__title">{{ .Title }}</h1>
+        {{- with .Params.description }}
+        <p class="page-head__lead">{{ . }}</p>
+        {{- end }}
+    </header>
+
+    {{- with .Content }}
+    <div class="prose">{{ . }}</div>
+    {{- end }}
+
+    {{- if $pages }}
+    <div class="timeline" data-rail>
+        <span class="rail__lit" aria-hidden="true"></span>
+        {{- range $pages.GroupByDate "2006" }}
+        <section class="timeline__group" aria-labelledby="year-{{ .Key }}">
+            <h2 class="timeline__year" id="year-{{ .Key }}">{{ .Key }}</h2>
+            <ul class="timeline__list">
+                {{- range .Pages }}
+                <li>
+                    <a class="entry" href="{{ .RelPermalink }}">
+                        <span class="entry__top">
+                            <span class="entry__title">{{ .Title }}</span>
+                            <span class="entry__meta">
+                                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateform) }}</time>
+                            </span>
+                        </span>
+                        {{- with .Params.description }}
+                        <span class="entry__desc">{{ . }}</span>
+                        {{- end }}
+                    </a>
+                </li>
+                {{- end }}
+            </ul>
+        </section>
+        {{- end }}
+    </div>
+    {{- else }}
+    <p class="empty-state">Nothing published here yet.</p>
+    {{- end }}
+</div>
+{{ end }}
